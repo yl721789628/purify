@@ -1,0 +1,61 @@
+
+	.noteBox{
+		width: 1210px;
+		height: 628px;
+		background:#fff;
+		box-shadow: 2px 2px 29px #e8e8e8,-3px 1px 19px #e8e8e8;
+		margin: 0px auto;
+		border-radius: 13px;
+		overflow: hidden;
+	}
+	.pushBox{
+		width: 1210px;
+		height: 32px;
+		margin-top: 20px;
+	}
+	.pushBox span{
+		width:82px;
+		height: 32px;
+		float:right;
+		background: url(../images/grade/push.png) no-repeat;
+		margin-right: 20px;
+		cursor: pointer;
+	}
+	.name{
+		font-size:16px;
+		color:#6fba2c;
+		width: 50px;
+		height: 40px;
+		line-height: 40px;
+		margin:0 20px;
+	}
+	.titleBox{
+		margin: 20px 0;
+	}
+	.titleCon{
+		width: 1096px;
+		height: 38px;
+		border:1px solid #6fba2c;
+		outline: none;
+		font-size:14px;
+		color:#707070;
+	}
+	.conDetail{
+		height: 476px;
+		width: 1092px;
+		border:1px solid #6fba2c;
+		resize: none;
+		outline: none;
+		font-size:14px;
+		color:#707070;
+		line-height: 30px;
+	}
+	/*页脚*/
+	.bk-footimg{
+    width:100%;
+    height:191px;
+	}
+	.bk-footimg img {
+    display: block;
+    width: 100%;
+	}

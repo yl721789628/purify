@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>金八力托管-更换讲次</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/integral.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css"><!--滚动条-->
+</head>
+<body>
+<div id="integral">
+    <div class="integral">
+        <a class="integral-close"></a><!--关闭按钮-->
+        <div class="change-speak">
+            <img class="change-speak-img" src="images/m72.png"/>
+            <div class="change-speak-box">
+                <ul>
+                    <li><a href=""><i>第一讲</i>小红帽与大灰狼还有白雪公主</a></li>
+                    <li><a href=""><i>第一讲</i>小红帽与大灰狼还有白雪公主</a></li>
+                    <li><a href=""><i>第一讲</i>小红帽与大灰狼还有白雪公主</a></li>
+                    <li><a href=""><i>第一讲</i>小红帽与大灰狼还有白雪公主</a></li>
+                    <li><a href=""><i>第一讲</i>小红帽与大灰狼还有白雪公主</a></li>
+                    <li><a href=""><i>第一讲</i>小红帽与大灰狼还有白雪公主</a></li>
+                    <li><a href=""><i>第一讲</i>小红帽与大灰狼还有白雪公主</a></li>
+                    <li><a href=""><i>第一讲</i>小红帽与大灰狼还有白雪公主</a></li>
+                    <li><a href=""><i>第一讲</i>小红帽与大灰狼还有白雪公主</a></li>
+                    <li><a href=""><i>第一讲</i>小红帽与大灰狼还有白雪公主</a></li>
+                    <li><a href=""><i>第一讲</i>小红帽与大灰狼还有白雪公主</a></li>
+                    <li><a href=""><i>第一讲</i>小红帽与大灰狼还有白雪公主</a></li>
+                    <li><a href=""><i>第一讲</i>小红帽与大灰狼还有白雪公主</a></li>
+                    <li><a href=""><i>第一讲</i>小红帽与大灰狼还有白雪公主</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jquery1.8.3.min.js"></script>
+<script src="js/jquery.mousewheel.min.js"></script>
+<script src="js/jquery.mCustomScrollbar.min.js"></script>
+<script>
+    (function($){
+        $(window).load(function(){
+            /*滚动条*/
+            $(".change-speak-box ul").mCustomScrollbar({
+                theme:"minimal"
+                // 这里可以根-据背景颜色来通过theme选择自定义样式，
+            });
+            /*关闭按钮（重复）*/
+            $('.integral-close').click(function () {
+                $('#integral').hide();
+            })
+
+        });
+    })(jQuery);
+
+    /*滚动条*/
+</script>
+</body>
+</html>

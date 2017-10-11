@@ -1,0 +1,74 @@
+.noteBox .back{
+	display:block;
+	width:82px;
+	height:32px;	
+	margin-left:1088px;
+	margin-top:20px;
+}
+.pic_list{
+	position:relative;
+	width:1210px;
+	height:442px;
+}
+.photo_box{
+	position:relative;
+	overflow:hidden;
+	width:1210px;
+	height:442px;
+}
+#add_pic{
+	cursor:pointer;
+	background:url('../images/photo/add.png') no-repeat;
+	background-size:cover; 
+	width:178px;
+	height:134px;
+}
+.grade_list{
+	width:1190px;
+	position: absolute;
+	margin-top:20px;
+	left:0px;
+	top:0px;
+	padding-left: 20px;
+}
+.grade_list li{
+	background:url('../images/photo/ten.png') no-repeat;
+	width:178px;
+	float:left;
+	position:relative;
+	height: 134px;
+	margin:0 20px 20px 0;
+}
+.grade_list li i{
+	width:22px;
+	height:22px;
+	position: absolute;
+	z-index:1;
+	top:0px;
+	display:none;
+	cursor: pointer;
+	left:156px;
+	background:url('../images/photo/close.png') no-repeat;
+}
+.dragOut{
+	width:12px;
+	height: 180px;
+	background: yellow;
+	position: absolute;
+	left: 388px;
+	top: 100px;
+}
+.box{
+	width:12px;
+	height: 180px;
+	position: relative;
+}
+.drag{
+	width: 8px;
+	height: 60px;
+	background: #000;
+	position: absolute;
+	left:2px;
+	top:0px;
+	border-radius: 5px;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/shop.css">
+</head>
+<body>
+<div id="shop">
+	<!--R导航logo-->
+	<div class="shop-site">
+		<div class="shop-vite">
+			<h3 class="shop-vite-title"><a href="shop.html">金八力商城欢迎您</a></h3>
+			<ul class="shop-vite-ul">
+				<li>
+					<a class="shop-icon icon-cart" href="shop-cart.html" target="_blank">购物车</a>
+					<i class="icon-cart-nub" data-value="0"></i>
+				</li>
+				<li>
+					<a class="shop-icon icon-order" href="shop-mygoods.html">我的订单</a>
+				</li>
+				<li>
+					<a>客服电话4000-815-518</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!--E导航logo-->
+	<div class="mygoods">
+		<a class="shop-logo" href="shop.html"><img src="images/m52.png"></a>
+		<i>我的订单</i>
+	</div>
+	<!--<div class="shop_gold">金八力自营</div>-->
+	<div class="shop_own">
+		<input class="own_choice choose_one" type="checkbox" value="">
+		<!-- 作文看图说话 -->
+		<div class="shop_word">
+			<div class="word_pic">
+				<img src="images/m53.jpg" alt="">
+			</div>
+			<div class="word_essay">
+				<p class="essay_pic">作文&nbsp;看图说话一套</p>
+				<p class="essay_price">￥&nbsp;:&nbsp;<i class="single_price">98.00</i></p>
+			</div>
+		</div>
+		<!-- 作文教具 -->
+		<div class="shop_aid">
+			<div class="word_aid">
+				<img src="images/m53.jpg" alt="">
+			</div>
+			<div class="essay_word">
+				<p class="aid_pic">作文</p>
+				<p class="aid_price">赠送</p>
+			</div>
+		</div>
+		<!-- 加减 -->
+		<div class="book-qua fl">
+			<input id="jian" type="submit" value="-">
+			<input id="input" type="text" value="10">
+			<input id="jia" type="submit" value="+">
+		</div>
+		<div class="book_del">删除</div>
+	</div>
+	<!-- 看图说话二 -->
+	<div class="shop_own1">
+		<input class="own_choice choose_two" type="checkbox" value="">
+		<!-- 作文看图说话 -->
+		<div class="shop_word">
+			<div class="word_pic">
+				<img src="images/m53.jpg" alt="">
+			</div>
+			<div class="word_essay">
+				<p class="essay_pic">作文&nbsp;看图说话一套</p>
+				<p class="essay_price">￥&nbsp;:&nbsp;<i>98.00</i></p>
+			</div>
+		</div>
+		<!-- 作文教具 -->
+		<div class="shop_aid">
+			<div class="word_aid">
+				<img src="images/m53.jpg" alt="">
+			</div>
+			<div class="essay_word">
+				<p class="aid_pic">作文</p>
+				<p class="aid_price">赠送</p>
+			</div>
+		</div>
+		<!-- 加减 -->
+		<div class="book-qua fl">
+			<input id="jian" type="submit" value="-">
+			<input id="input" type="text" value="10">
+			<input id="jia" type="submit" value="+">
+		</div>
+		<div class="book_del1">删除</div>
+	</div>
+	<!-- 全选 -->
+	<div class="book_all">
+		<div class="all_word">
+			<input class="all_choose" type="checkbox">全选
+		</div>
+		<div class="all_del">删除全部商品</div>
+
+
+		<div class="already_choose fl">已经选择
+			<span class="shop_num">2</span>件商品
+		</div>
+		<div class="price-sum fl ml10">总价:￥:<span class="price_all">196.00</span>
+		</div>
+		<div class="clear_all fl"><a href="shop-lineitem.html">结算</a></div>
+	</div>
+</div>
+	<script src="js/jquery1.8.3.min.js"></script>
+	<script src="js/shop-cart.js"></script>
+</body>
+</html>

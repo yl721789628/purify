@@ -1,0 +1,138 @@
+.vote_roll{
+	width:1263px;
+	height:205px;
+	margin: 20px auto;
+	background:pink;
+	position:relative;
+}
+.vote_com{
+	position:absolute;
+	z-index:1;
+	top:0px;
+	left:46px;
+}
+.vote_pic{
+	width:1190px;
+	height:165px;
+	position:absolute;
+	left:71px;
+}
+.vote_pic a{
+	display: block;
+	float: left;
+}
+.vote_pic a:nth-child(2){
+	position:relative;
+}
+.vote_pic a:nth-child(2) div{
+	position: absolute;
+	top:117px;
+	left:73px;
+}
+.vote_pic a:nth-child(3){
+	position:relative;
+}
+.vote_pic a:nth-child(3) div{
+	position: absolute;
+	top:128px;
+	left:35px;
+}
+.vote_pic a:nth-child(4){
+	position:relative;
+}
+.vote_pic a:nth-child(4) div{
+	position: absolute;
+	top:127px;
+	left:42px;
+}
+.vote_pic a:nth-child(5){
+	position:relative;
+}
+.vote_pic a:nth-child(5) div{
+	position: absolute;
+	top:122px;
+	left:45px;
+}
+.vote_pic a:nth-child(6){
+	position:relative;
+}
+.vote_pic a:nth-child(6) div{
+	position: absolute;
+	top:110px;
+	left:45px;
+}
+
+/**/
+#sk-makeup{
+	width: 1210px;
+	height: 400px;
+	margin: auto;
+}
+#sk-makeup .sk-select{
+	width: 948px;
+	height: 40px;
+	margin-left: 262px;
+}
+.sk-selecta{
+	margin-right: 30px;
+}
+.sk-makcont{
+	width: 1200px;
+	height: 330px;
+	margin-top: 20px;
+	border-radius: 12px;
+	border: 5px solid #f39800;
+}
+.sk-makmant{
+	width: 1163px;
+	height: 310px;
+	margin: 10px auto;
+	padding-left: 15px;
+	border-radius: 12px;
+	border: 1px solid #c5c3a9;
+	border-right: none;
+	border-bottom: none;
+	background: #fffcdb;
+}
+.sk-makmant h4{
+	width: 1108px;
+	height: 67px;
+	line-height: 67px;
+	margin-left: 10px;	
+	border-bottom: 2px solid #f39800;
+}
+.sk-makmant h4 i,.sk-makscroll p i{
+	display: inline-block;
+	font-size: 18px;
+	color: #f39800;
+	text-align: center;
+	width: 228px;
+}
+.sk-makmant h4 i:first-child,.sk-makscroll p i:first-child{
+	width: 210px;
+}
+.sk-makmant h4 i:nth-child(5),.sk-makscroll p i:nth-child(5){
+	width: 207px;
+	border: none;
+}
+.sk-makscroll{
+	width: 1108px;
+	height: 240px;
+	margin-left: 10px;
+	overflow: hidden;
+}
+.sk-makscroll p{
+	height: 40px;
+	border-bottom: 1px dashed #e3e2db;
+}
+.sk-makscroll p i{
+	line-height: 40px;
+	font-size: 16px;
+	border-right: 1px solid #e0dfdb;
+}
+.mCSB_outside + .mCS-minimal.mCSB_scrollTools_vertical, .mCSB_outside + .mCS-minimal-dark.mCSB_scrollTools_vertical{
+	right: 0;
+    position: absolute;
+     margin: 0px; 
+    right: -30px;
+}

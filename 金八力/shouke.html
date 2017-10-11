@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>金八力托管-授课-首页</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/head.css"><!--主导航样式-->
+    <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css"><!--滚动条-->
+    <link rel="stylesheet" type="text/css" href="css/mstyle.css">
+    <link rel="stylesheet" type="text/css" href="css/sk_calendar.css"><!--日历-->
+    <link rel="stylesheet" type="text/css" href="css/Pager.css"><!--翻页-->
+</head>
+<body>
+<!--R主导航-->
+<div class="prepare">
+    <div class="bk-head">
+        <ul class="bt_set">
+            <li>客服电话&nbsp;4000-815-518</li>
+            <li class="set_user">
+                <i class="set-name">用户名</i>
+                <ul class="set_change_user">
+                    <li>修改密码</li>
+                    <li>退出</li>
+                </ul>
+            </li>
+            <!--有新消息时，添加class名has-->
+            <li class="set_news has">消息</li>
+        </ul>
+        <div class="bk-mainnav">
+            <ul class="mnav-nav">
+                <!--当前选项的a添加class名字 mnav+数字--->
+                <li class="mnav-li">
+                    <a class="mav">备&nbsp;课</a>
+                    <div class="mnav-option">
+                        <div class="mnav-bid"></div>
+                        <ul class="mnav-cont">
+                            <!--当前选项的a添加class名字active-col-->
+                            <li><a href="bk-kjsp.html">课件视频</a></li>
+                            <li><a href="choice.html">学科介绍</a></li>
+                            <li><a href="bk-pxzx.html">培训中心</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="mnav-li">
+                    <a class="mav  mnav2">授&nbsp;&nbsp;课</a>
+                    <div class="mnav-option">
+                        <div class="mnav-bid"></div>
+                        <ul class="mnav-cont">
+                            <li><a class="active-col" href="shouke.html">首页</a></li>
+                            <li><a href="lessonmodify.html">授课</a></li>
+                            <li><a href="schedule.html">课表管理</a></li>
+                            <li><a href="javascript:void(0);">分享</a></li>
+                            <li><a href="javascript:void(0);">记录</a></li>
+                            <li><a href="javascript:void(0);">设置</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="mnav-li">
+                    <a href="manage.html" class="mav">校内管理</a>
+                </li>
+                <li class="mnav-li">
+                    <a class="mav">测&nbsp;&nbsp;评</a>
+                    <div class="mnav-option">
+                        <div class="mnav-bid"></div>
+                        <ul class="mnav-cont">
+                            <li><a href="javascript:void(0);">入学测评</a></li>
+                            <li><a href="javascript:void(0);">考试</a></li>
+                            <li><a href="javascript:void(0);">老师测评</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="mnav-li">
+                    <a class="mav">培&nbsp;&nbsp;训</a>
+                    <div class="mnav-option">
+                        <div class="mnav-bid"></div>
+                        <ul class="mnav-cont">
+                            <li><a href="javascript:void(0);">培训课程</a></li>
+                            <li><a href="javascript:void(0);">培训文档</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--E主导航-->
+
+<!--R查询课程-->
+<div class="sk-cont">
+    <div class="sk-left">
+        <div class="sc-left-data">
+            <div class="time">
+                <div class="showtime">
+                    <span class="sk-day"></span>
+                    <span class="sk-week"></span>
+                </div>
+            </div>
+            <div class="sk_table ">
+                <!--内容-->
+                <div class="sk_show">
+                    <div class="sk-t">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sk-calendar">
+        <div id="ca"></div>
+    </div>
+    <div class="sk-year"></div>
+</div>
+<!--E查询课程-->
+
+<!--R班级人数/考勤率-->
+<div class="sk-rat">
+    <h4>小学一班</h4>
+    <div class="sk-check">
+        <a>学生人数：20人</a>
+        <a><i>考勤率</i>：100%</a>
+    </div>
+    <div class="sk-rat-cont">
+        <div class="sk-gauge">
+            <div class="sk-gauge-box"><!--无数据是空div盒子sk-gauge-box，class="sk-gauge-box sk-pic"-->
+                <!--温度计整体-->
+                <div class="sk-wdj">
+                    <h5 class="sk-gauge-txt"><a>看图写话看图写话</a></h5>
+                    <div class="wdj"></div>
+                    <div class="sk-numbbox">
+                        <div class="sk-numb">
+                            <i class="sk-numba"></i>
+                            <i class="sk-numbb"></i>
+                        </div>
+                        <div class="sk-bid"></div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="sk-gauge-box"><!--无数据是空div盒子sk-gauge-box，class="sk-gauge-box sk-pic"-->
+                <!--温度计整体-->
+                <div class="sk-wdj">
+                    <h5 class="sk-gauge-txt"><a>看图写话看图写话</a></h5>
+                    <div class="wdj"></div>
+                    <div class="sk-numbbox">
+                        <div class="sk-numb">
+                            <i class="sk-numba"></i>
+                            <i class="sk-numbb"></i>
+                        </div>
+                        <div class="sk-bid"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="sk-gauge-box sk-pic"></div>
+            <div class="sk-gauge-box sk-pic"></div>
+            <div class="sk-gauge-box sk-pic"></div>
+        </div>
+        <div id="pager" ></div>
+    </div>
+</div>
+<!--E班级人数/考勤率-->
+
+<!--R页脚-->
+<div class="bk-footimg">
+    <img src="images/m24.jpg" />
+</div>
+<!--E页脚-->
+<script src="js/jquery1.8.3.min.js"></script>
+<script src="js/jquery.mousewheel.min.js"></script>
+<script src="js/jquery.mCustomScrollbar.min.js"></script><!--滚动条-->
+<script src="js/mjs.js"></script><!--主导航-->
+<script src="js/sk_calendar.js"></script><!--日历-->
+<script src="js/jquery.pager.js"></script><!--页码-->
+<script src="js/gauge.js"></script><!--温度计插件-->
+<script src="js/shouke.js"></script><!--日历/课程安排-->
+<script src="js/sk-gaupe.js"></script><!--调用温度计和页码-->
+</body>
+</html>

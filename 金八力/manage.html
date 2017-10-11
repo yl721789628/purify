@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>manage</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/manage.css">
+	<script src="js/jquery1.8.3.min.js"></script>
+	<link rel="stylesheet" href="css/head.css">
+</head>
+<body>
+		<!--主导航-->
+<div class="prepare">
+    <div class="bk-head">
+        <ul class="bt_set">
+            <li>客服电话&nbsp;4000-815-518</li>
+            <li class="set_user">
+                <i class="set-name">用户名</i>
+                <ul class="set_change_user">
+                    <li>修改密码</li>
+                    <li>退出</li>
+                </ul>
+            </li><!--有新消息时，添加class名has-->
+            <li class="set_news has">消息</li>
+        </ul>
+        <div class="bk-mainnav">
+            <ul class="mnav-nav">
+                <!--当前选项的a添加class名字 mnav+数字-->
+                <li class="mnav-li">
+                    <a class="mav">备&nbsp;课</a>
+                    <div class="mnav-option">
+                        <div class="mnav-bid"></div>
+                        <ul class="mnav-cont">
+                            <!--当前选项的a添加class名字active-col-->
+                            <li><a href="bk-kjsp.html">课件视频</a></li>
+                            <li><a href="bk-xkjs.html">学科介绍</a></li>
+                            <li><a href="bk-pxzx.html">培训中心</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="mnav-li">
+                    <a class="mav">授&nbsp;课</a>
+                    <div class="mnav-option">
+                        <div class="mnav-bid"></div>
+                        <ul class="mnav-cont">
+                            <li><a href="shouke.html">首页</a></li>
+                            <li><a href="lessonmodify.html">授课</a></li>
+                            <li><a href="schedule.html">课表管理</a></li>
+                            <li><a href="">分享</a></li>
+                            <li><a href="">记录</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="mnav-li">
+                    <a href="manage.html" class="mav">校内管理</a>
+                    <div class="mnav-option">
+                        <div class="mnav-bid"></div>
+                        <ul class="mnav-cont" >
+                            <li><a href="">课件视频</a></li>
+                            <li><a href="">学科介绍</a></li>
+                            <li><a href="">课件视频</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="mnav-li">
+                    <a class="mav">测&nbsp;评</a>
+                    <div class="mnav-option">
+                        <div class="mnav-bid"></div>
+                        <ul class="mnav-cont">
+                            <li><a href="">课件视频</a></li>
+                            <li><a href="">学科介绍</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="mnav-li">
+                    <a class="mav">培&nbsp;训</a>
+                    <div class="mnav-option">
+                        <div class="mnav-bid"></div>
+                        <ul class="mnav-cont">
+                            <li><a href="">课件视频5</a></li>
+                            <li><a href="">学科介绍5</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+	<div class="manage_box">
+		<div class="manage_left">
+			<div class="manage_first">
+				<img src="images/school/left.png" alt="">
+				<img src="images/school/right.png" alt="">
+				<img src="images/school/tree.png" alt="">
+				<span>首页</span>
+			</div>
+			<ul>
+				<li><a href="">教务中心</a></li>
+				<li class="manage_white">
+					<div class="manage_ban manage_zhang lyh13">
+						<img src="images/school/z1.png" alt="">
+						<a href="">账号管理</a>
+					</div>					
+					<div class="manage_ban manage_zhang lyh">
+						<img src="images/school/b1.png" alt="">
+						<a href="">班级管理</a>
+					</div>
+					<div class="manage_ban lyh1">
+						<img src="images/school/x1.png" alt="">
+						<a href="">学员管理</a>
+					</div>	
+					<div class="manage_ban lyh2">
+						<img src="images/school/q1.png" alt="">
+						<a href="">校区维护</a>
+					</div>	
+					<div class="manage_ban chaxun lyh3">
+						<img src="images/school/k1.png" alt="">
+						<a href="">考勤成绩查询</a>
+					</div>	
+				</li>
+				<li class="manage_onine"><a href="">在线商城</a></li>
+				<li class="manage_buy">
+					<div class="manage_book lyh4">
+						<img src="images/school/g1.png" alt="">
+						<a href="">购买教材</a>
+					</div>	
+					<div class="manage_book lyh5">
+						<img src="images/school/w1.png" alt="">
+						<a href="">我的订单</a>
+					</div>	
+				</li>
+				<li class="manage_onload"><a href="">资料下载</a></li>
+				<li class="manage_student">
+					<div class="manage_lesson1 lyh6">
+						<img src="images/school/zs1.png" alt="">
+						<a href="">招生资料</a>
+					</div>	
+					<div class="manage_lesson1 lyh7">
+						<img src="images/school/kc1.png" alt="">
+						<a href="">课程资料</a>
+					</div>	
+					<div class="manage_lesson1 lyh8">
+						<img src="images/school/bang1.png" alt="">
+						<a href="">帮助资料</a>
+					</div>	
+				</li>
+				<li class="manage_other"><a href="">其他</a></li>
+				<li class="manage_message">
+					<div class="manage_lesson1 lyh9">
+						<img src="images/school/tun1.png" alt="">
+						<a href="">通讯录</a>
+					</div>	
+					<div class="manage_lesson1 lyh10">
+						<img src="images/school/tunj1.png" alt="">
+						<a href="">统计</a>
+					</div>	
+					<div class="manage_lesson1 le1 lyh11">
+						<img src="images/school/jiang1.png" alt="">
+						<a href="">招生奖励核算</a>
+					</div>	
+					<div class="manage_lesson1 le1 lyh12">
+						<img src="images/school/xuban1.png" alt="">
+						<a href="">续班奖励核算</a>
+					</div>	
+				</li>
+			</ul>
+		</div>
+		<div class="margin_right">
+			<div class="lyh_ml">
+				<img src="images/banner1.png" />
+			</div>
+			<div class="lyh_ml1" style="display:none">
+				<img src="images/banner1.png"/>
+			</div>
+			<div class="margin_right_banner">
+				<button id="lyh_zhankai">展开</button>
+				<div class="lyh_biaoti">
+					<img src="images/hua.png" />
+					<a href="">帐号信息</a>
+				</div>
+				<div class="lyh_kuang">
+					<img src="images/school/mogu.png" />
+					<img src="images/school/gold.png" />
+					<div class="lyh_shengyu1">剩余金币</div>
+					<div class="lyh_shengyu2">2000</div>
+					<div class="lyh_shengyu3">个</div>
+					<button class="lyh_kuang_button1">充&nbsp&nbsp&nbsp值</button>
+					<button class="lyh_kuang_button2">查看记录</button>
+					<div class="lyh_kuang_xian"></div>
+					<div class="lyh_kuang_right">
+						<p>已建教师账户数&nbsp;:&nbsp;4</p>
+						<p>闲置教师号数&nbsp;:&nbsp;1</p>
+						<p>账号续费日&nbsp;:&nbsp;2019-07-30</p>
+					</div>
+					<div class="lyh_timeyuan" id="myanimate">
+						<p>280</p>
+						<p>天</p>
+					</div>
+					<p>续费倒计时</p>
+					<img src="images/school/clock.png" />
+				</div>
+				<div class="lyh_kuang1">
+					<div class="lyh_news">
+						<img src="images/left.png" />
+						<img src="images/right.png" />
+						<div class="lyh_zuixin"><a href="">最新动态</a></div>
+						<div class="lyh_gengduo"><a href="">更多>></a></div>
+						<div class="lyh_list">
+							<div class="lyh_ls1">xxxxxxx已上传</div>
+							<div class="lyh_ls2">2017-02-13&nbsp;&nbsp;&nbsp;13:00</div>
+						</div>
+						<div class="lyh_list" id="LYH1">
+							<div class="lyh_ls1">xxxxxxx已上传</div>
+							<div class="lyh_ls2">2017-02-13&nbsp;&nbsp;&nbsp;13:00</div>
+						</div>
+						<div class="lyh_list" id="LYH2">
+							<div class="lyh_ls1">xxxxxxx已上传</div>
+							<div class="lyh_ls2">2017-02-13&nbsp;&nbsp;&nbsp;13:00</div>
+						</div>
+						<div class="lyh_list" id="LYH3">
+							<div class="lyh_ls1">xxxxxxx已上传</div>
+							<div class="lyh_ls2">2017-02-13&nbsp;&nbsp;&nbsp;13:00</div>
+						</div>
+						<div class="lyh_list" id="LYH4">
+							<div class="lyh_ls1">xxxxxxx已上传</div>
+							<div class="lyh_ls2">2017-02-13&nbsp;&nbsp;&nbsp;13:00</div>
+						</div>
+					</div>
+				</div>
+				<div class="lyh_kuang2">
+					<div class="lyh_jiaoshi">
+						<img src="images/left.png" />
+						<img src="images/right.png" />
+						<p>教师培训</p>
+					</div>
+					<div class="lyh_content">
+						<h2>标题</h2>
+						<p>内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</p>
+						<p><a href="">查看详情>></a></p>
+					</div>
+					<div class="lyh_content1">
+						<img src="images/school/teacher.png" />
+					</div>
+				</div>
+				<div class="aixuexi">
+					<img src="images/school/ye.png" />
+					<a href="">"三阶段"&nbsp;&nbsp;祝你成功开启爱学习之旅</a>
+				</div>
+				<div class="lyh_picture">
+					<div class="lp1"><img src="images/school/pic.png"></div>
+					<div class="lp2"><img src="images/school/pic.png"></div>
+					<div class="lp2"><img src="images/school/pic.png"></div>
+				</div>
+				<div class="lyh_wenzi">
+					<div class="wenzi1">
+						<button id="lyh_jiantou">
+							<img src="images/school/green.png" />
+							<a href="">准备阶段</a>
+						</button>
+						<div class="wz" id="wz1">
+							<img src="images/jiantou.png" />
+							<p>了解产品，熟悉系统</p>
+							<p>学科培训，教师备课</p>
+							<p>教师硬件，配件调整</p>
+						</div>
+					</div>
+					<div class="wenzi2">
+						<button id="lyh_jiantoua">
+							<img src="images/school/green.png" />
+							<a id="enroll" href="">招生阶段</a>
+						</button>
+						<div class="wz1" id="wz1">
+							<img src="images/jiantou.png" />
+							<p>了解产品，熟悉系统</p>
+							<p>学科培训，教师备课</p>
+							<p>教师硬件，配件调整</p>
+						</div>
+					</div>
+					<div class="wenzi3">
+						<button id="lyh_jiantoub">
+							<img src="images/school/green.png" />
+							<a href="">使用阶段</a>
+						</button>
+						<div class="wz2" id="wz1">
+							<img src="images/jiantou.png" />
+							<p>了解产品，熟悉系统</p>
+							<p>学科培训，教师备课</p>
+							<p>教师硬件，配件调整</p>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="bk-footimg">
+    	<img src="images/m24.jpg" />
+	</div>
+
+	<script type="text/javascript" src="js/manage.js"></script>
+
+</body>
+</html>

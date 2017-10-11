@@ -1,0 +1,62 @@
+/*导航字体*/
+.navLink{
+	width: 1245px;
+	height: 125px;
+	margin:10px auto;
+	position: relative;
+	background: url(../images/navBg.png) no-repeat top center;
+}
+.camearBg{
+	width: 182px;
+	height: 183px;
+	position: absolute;
+	background: url(../images/camear.png) no-repeat;
+	left: 66px;
+	top:-16px;
+	z-index: 1;
+}
+.toJump{
+	position: absolute;
+	cursor:pointer;
+}
+.call{
+	width: 100px;
+	height: 100px;
+	left: 291px;
+	top:9px; 
+}
+.project{
+	width:100px;
+	height: 95px; 
+	left:495px;
+	top:14px;
+}
+.add{
+	width:102px;
+	height: 95px;
+	left: 578px;
+	top:17px;
+}
+.group{
+	width:100px;
+	height: 95px;
+	left:697px;
+	top:20px;
+}
+.record{
+	width:100px;
+	height: 94px;
+	left: 897px;
+	top:20px;
+}
+.titleBox{
+	position: relative;
+}
+.title{
+	position: absolute;
+    left:25px;
+    top: -35px;
+}
+.call .title{
+	left:38px;
+}

@@ -1,0 +1,172 @@
+/*导航*/.prepare{
+    width: 100%;
+    height: 110px;
+    margin-bottom: 20px;
+    background: #6fba2c;
+}
+.bk-head{
+    width:1140px;
+    height:110px;
+    margin:auto;
+    padding-left: 70px;
+    background: url("../images/m09.png") no-repeat 40px 0px;
+}
+.bk-head .bt_set{
+    height:32px;
+}
+.bt_set>li{
+    float: right;
+    font-size: 14px;
+    color: #fff;
+    line-height: 15px;
+    margin-top: 11px;
+    border-right: 1px solid #fff;
+    padding: 0 13px;
+    text-align: center;
+}
+.bt_set .set_user{
+    border:none;
+    padding: 0;
+}
+.bt_set .set_user i{
+    display: block;
+    position: relative;
+    height: 15px;
+    padding: 0 15px;
+    line-height: 15px;
+    border-right: 1px solid #fff;
+    background: #6fba2c;
+    cursor: pointer;
+}
+.bt_set .set_user .set_change_user{
+    display: none;
+    position: absolute;
+    padding-top: 10px;
+    background: #fff;
+    z-index: 1;
+}
+.bt_set .set_user .set_change_user li{
+    height: 25px;
+    line-height: 25px;
+    padding: 0 9px;
+    border-right: none;
+    cursor: pointer;
+    color: #000;
+    font-size:13px;
+}
+.bt_set li:first-child{
+    border-right:none;
+}
+.bt_set .set_news{
+    position: relative;
+}
+.bt_set .has:after{
+    display: inline-block;
+    content: '';
+    width:5px;
+    height:5px;
+    background: #eb6100;
+    border-radius: 5px;
+    position: absolute;
+    top:0;
+    right:7px;
+}
+/*备课-导航*/
+.bk-mainnav{
+    height: 78px;
+}
+.bk-mainnav .mnav-nav{
+    height: 78px;
+    margin-left: 188px;
+    float: right;
+}
+.mnav-nav .mnav-li{
+    position: relative;
+    float: left;
+    padding: 10px 60px 10px 30px;
+    background: url(../images/m13.png) no-repeat right;
+}
+.mnav-li:last-child{
+    background: none;
+}
+.mnav-li .mav{
+    font-size: 24px;
+    color: #fff;
+}
+.mnav-nav li a{
+    display: inline;
+    width:100%;
+}
+.mnav-nav li a.mnav1{
+    padding: 4px 0px 0 80px;
+    text-indent: 15px;
+    background:  url("../images/m10.png") no-repeat left center;
+}
+.mnav-nav li a.mnav2{
+    padding: 10px 0 10px 80px;
+    text-indent: 15px;
+    background:  url("../images/m18.png") no-repeat left center;
+}
+.mnav-nav li a.mnav3{
+    padding: 10px 0 10px 80px;
+    text-indent: 15px;
+    background:  url("../images/m22.png") no-repeat left center;
+}
+.mnav-nav li a.mnav4{
+    padding: 10px 0 10px 80px;
+    text-indent: 15px;
+    background:  url("../images/m20.png") no-repeat left center;
+}
+.mnav-nav li a.mnav5{
+    padding: 10px 0 10px 80px;
+    text-indent: 15px;
+    background:  url("../images/m21.png") no-repeat left center;
+    background-size: 38%;
+}
+.mnav-option{
+    position: absolute;
+    background: #fff;
+    top:52px;
+    left: 25px;
+    border-radius:5px;
+    z-index: 55;
+}
+.mnav-nav li:last-child .mnav-option{
+    left: -27px;
+}
+.mnav-nav li:last-child .mnav-option .mnav-bid{
+    left: 164px;
+}
+.mnav-bid{
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #fff;
+    margin-right: 10%;
+    position: absolute;
+    top: -5px;
+    left: 111px;
+}
+.mnav-cont li{
+    float: left;
+    height:23px;
+}
+.mnav-cont li a{
+    font-size:16px;
+    color: #6fba2c;
+    padding: 4px 18px;
+}
+.mnav-cont li a:hover,.mnav-cont li a.active-col{
+    color: #fa880e;
+}
+/*页脚*/
+.bk-footimg{
+    width:100%;
+    height:191px;
+    margin-top: 15px;
+}
+.bk-footimg img {
+    display: block;
+    width: 100%;
+}

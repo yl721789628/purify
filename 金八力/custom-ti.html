@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/head.css">
+    <link rel="stylesheet" type="text/css" href="css/integral.css">
+    <link href="css/select.css" rel="stylesheet" />
+    <title>金八力托管-授课-课表管理-布置作业-自定义题库</title>
+</head>
+<body>
+<!--R主导航-->
+<div class="prepare">
+    <div class="bk-head">
+        <ul class="bt_set">
+            <li>客服电话&nbsp;4000-815-518</li>
+            <li class="set_user">
+                <i class="set-name">用户名</i>
+                <ul class="set_change_user">
+                    <li>修改密码</li>
+                    <li>退出</li>
+                </ul>
+            </li><!--有新消息时，添加class名has-->
+            <li class="set_news has">消息</li>
+        </ul>
+        <div class="bk-mainnav">
+            <ul class="mnav-nav">
+                <!--当前选项的a添加class名字 mnav+数字--->
+                <li class="mnav-li">
+                    <a class="mav mnav1">备&nbsp;课</a>
+                    <div class="mnav-option">
+                        <div class="mnav-bid"></div>
+                        <ul class="mnav-cont">
+                            <!--当前选项的a添加class名字active-col-->
+                            <li><a href="bk-kjsp.html">课件视频</a></li>
+                            <li><a href="choice.html">学科介绍</a></li>
+                            <li><a href="bk-pxzx.html">培训中心</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="mnav-li">
+                    <a class="mav">授&nbsp;&nbsp;课</a>
+                    <div class="mnav-option">
+                        <div class="mnav-bid"></div>
+                        <ul class="mnav-cont">
+                            <li><a href="shouke.html">首页</a></li>
+                            <li><a href="lessonmodify.html">授课</a></li>
+                            <li><a class="active-col" href="schedule.html">课表管理</a></li>
+                            <li><a href="javascript:void(0);">分享</a></li>
+                            <li><a href="javascript:void(0);">记录</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="mnav-li">
+                    <a href="manage.html" class="mav">校内管理</a>
+                </li>
+                <li class="mnav-li">
+                    <a class="mav">测&nbsp;&nbsp;评</a>
+                    <div class="mnav-option">
+                        <div class="mnav-bid"></div>
+                        <ul class="mnav-cont">
+                            <li><a href="javascript:void(0);">入学测评</a></li>
+                            <li><a href="javascript:void(0);">考试</a></li>
+                            <li><a href="javascript:void(0);">老师测评</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="mnav-li">
+                    <a class="mav">培&nbsp;&nbsp;训</a>
+                    <div class="mnav-option">
+                        <div class="mnav-bid"></div>
+                        <ul class="mnav-cont">
+                            <li><a href="javascript:void(0);">培训课程</a></li>
+                            <li><a href="javascript:void(0);">培训文档</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--E主导航-->
+<div id="custom-ti">
+    <!--R搜索/返回-->
+    <div class="custom-select">
+        <button class="custom-back"><a href="schedule.html">返回</a></button>
+        <select class="custom-selectc">
+            <option value="1"><i>第三课</i><b>第三课的名称</b></option>
+            <option value="2"><i>第三课</i><b>第三课的名称</b></option>
+            <option value="3"><i>第三课</i><b>第三课的名称</b></option>
+            <option value="4"><i>第三课</i><b>第三课的名称</b></option>
+            <option value="5"><i>第三课</i><b>第三课的名称</b></option>
+            <option value="6"><i>第三课</i><b>第三课的名称</b></option>
+            <option value="7"><i>第三课</i><b>第三课的名称</b></option>
+            <option value="8"><i>第三课</i><b>第三课的名称</b></option>
+            <option value="9"><i>第三课</i><b>第三课的名称</b></option>
+            <option value="10"><i>第三课</i><b>第三课的名称</b></option>
+            <option value="11"><i>第三课</i><b>第三课的名称</b></option>
+            <option value="12"><i>第三课</i><b>第5课的名称</b></option>
+        </select>
+    </div>
+    <!--E搜索/返回-->
+    <div class="custom-box">
+        <div class="custom-nav">
+            <a class="" href="#">自定义题库</a>
+            <a class="active" href="#">公共题库</a>
+        </div>
+        <div class="custom-addti">
+            <h6>您还没有添加任何题目哦！</h6>
+            <h5>+<i>添加题目</i></h5>
+        </div>
+    </div>
+</div>
+<script src="js/jquery1.8.3.min.js"></script>
+<script src="js/mjs.js"></script>
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="js/jquery.select.js"></script><!--select-->
+<script>
+    $(function () {
+        $(window).load(function(){
+            /*下拉菜单*/
+            // $("#mySelect").select(); 不传参数可以这样写
+            $(".custom-selectc").select({
+                width: "400px",
+                height:"10px"
+
+            });
+            /*导航切换*/
+            $('.custom-nav a').click(function(){
+                $(this).addClass('active').siblings().removeClass('active');
+            })
+        });
+
+    });
+</script>
+</body>
+</html>

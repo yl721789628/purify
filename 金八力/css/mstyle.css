@@ -1,0 +1,1031 @@
+/*入口-浮岛*/
+body{font-family: "微软雅黑";}
+#wraper a{
+    display: inline-block;
+}
+#wraper img{
+    position: absolute;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+#wraper a:first-child img.ray{
+    top:0;
+    width: 3%;
+    left: 48%;
+    opacity: 0.7;
+}
+#wraper a:first-child img{
+    width: 48%;
+    left: 28%;
+    top: 20%;
+    z-index: 3;
+    -webkit-animation: dao1 4s ease-in infinite;
+    -moz-animation: dao1 4s ease-in infinite;
+    -ms-animation: dao1 4s ease-in infinite;
+    animation: dao1 4s ease-in infinite;
+}
+#wraper a:nth-child(2) img,#wraper a:nth-child(3) img{
+    -webkit-animation: dao2 4s ease-in 1s infinite;
+    -moz-animation: dao2 4s ease-in 1s infinite;
+    -ms-animation: dao2 4s ease-in 1s infinite;
+    animation: dao2 4s ease-in 1s infinite;
+ }
+#wraper a:nth-child(2) img{
+    width: 38%;
+    top: 2%;
+    left: 1%;
+}
+#wraper a:nth-child(3) img{
+    width: 34%;
+    top: 0;
+    right: 1%;
+}
+#wraper a:nth-child(4) img{
+    width: 35%;
+    bottom: 0;
+    right: 0;
+    z-index: 4;
+}
+#wraper a:nth-child(5) img{
+    width: 35%;
+    bottom: 0;
+    left: 0;
+    z-index: 4;
+}
+#wraper a:hover  img{
+    transform: scale(1.1);
+    transform-origin: 50% 50%;
+}
+#cloud{
+    width: 100%;
+}
+#cloud img{
+    width: 8%;
+    position: absolute;
+    z-index: 8;
+    display: block;
+}
+#cloud img:first-child{
+    top: 2%;
+    left: 5%;
+    -webkit-animation: yun1 220s linear infinite;
+    -moz-animation: yun1 220s linear infinite;
+    -ms-animation: yun1 220s linear infinite;
+    animation: yun1 220s linear infinite;
+}
+#cloud img:nth-child(2){
+    top: 8%;
+    left: 45%;
+    -webkit-animation: yun2 250s linear infinite;
+    -moz-animation: yun2 250s linear infinite;
+    -ms-animation: yun2 250s linear infinite;
+    animation: yun2 250s linear infinite;
+}
+#cloud img:nth-child(3){
+    top: 65%;
+    left: 5%;
+    -webkit-animation: yun3 220s linear infinite;
+    -moz-animation: yun3 220s linear infinite;
+    -ms-animation: yun3 120s linear infinite;
+    animation: yun3 220s linear infinite;
+}
+#cloud img:nth-child(4){
+    top: 75%;
+    -webkit-animation: yun4 220s linear infinite;
+    -moz-animation: yun4 220s linear infinite;
+    -ms-animation: yun4 220s linear infinite;
+    animation: yun4 220s linear infinite;
+}
+#cloud img:nth-child(5){
+    right: 1%;
+    top: 15%;
+    -webkit-animation: yun5 220s linear infinite;
+    -moz-animation: yun5 220s linear infinite;
+    -ms-animation: yun5 120s linear infinite;
+    animation: yun5 220s linear infinite;
+}
+.cd1{
+    top: 0;
+    right: 1%;
+    width: 15%;
+    -webkit-animation: dao2 4s ease-in 1s infinite;
+    -moz-animation: dao2 4s ease-in 1s infinite;
+    -ms-animation: dao2 4s ease-in 1s infinite;
+    animation: dao2 4s ease-in 1s infinite;
+}
+.cd2{
+    width: 20%;
+    top: 14%;
+    right: 40%;
+    z-index: 99;
+    -webkit-animation: caidai ease-in 4s infinite;
+    -moz-animation: caidai ease-in 4s infinite;
+    -ms-animation: caidai ease-in 4s infinite;
+    animation: caidai ease-in 4s infinite;
+}
+/*CSS3动画——云飘动*/
+@keyframes yun1 {
+    0%{ left: 5%;}
+    50%{ left: 100%;}
+    80%{left: 50%;}
+    100%{ left: 0%;}
+}
+@keyframes yun2 {
+    0%{ left: 45%;}
+    50%{ left: 100%;}
+    80%{left: 50%;}
+    100%{ left: 0%;}
+}
+@keyframes yun3 {
+    0%{ left: 5%;}
+    50%{ left: 100%;}
+    80%{left: 50%;}
+    100%{ left: 0%;}
+}
+@keyframes yun4 {
+    0%{ right: 45%;}
+    50%{ right: 100%;}
+    80%{right: 50%;}
+    100%{ right: 0%;}
+}
+@keyframes yun5 {
+    0%{ right: 15%;}
+    50%{ right: 100%;}
+    80%{right: 50%;}
+    100%{ right: 0%;}
+}
+@-webkit-keyframes dao1{
+    0%{
+        top: 20%;
+    }
+    50%{
+        top: 22%;
+    }
+    100%{
+        top: 20%;
+    }
+}
+@-webkit-keyframes dao2{
+    0%{
+        top: 0;
+    }
+    50%{
+        top: 3%;
+    }
+    100%{
+        top: 0;
+    }
+}
+@-webkit-keyframes caidai{
+    0%{
+        top: 13%;
+    }
+    50%{
+        top: 14%;
+    }
+    100%{
+        top: 13%;
+    }
+}
+/*副导航*/
+.bk-vicenav{
+    width:1207px;
+    margin:20px auto;
+    border-radius: 10px 10px 0px 0px;
+    background: #fffcdb;
+    border:1px solid #d7d7d7;
+    border-top:none;
+}
+.vinav_title{
+    width:1209px;
+    height: 40px;
+    border-radius: 20px 20px 0px 0px;
+}
+.vinav_title li{
+    float: left;
+    width:152px;
+    height: 40px;
+    margin-left: -1px;
+    text-align: center;
+    border-radius: 8px 8px 0px 0px;
+    background: url(../images/m11.jpg) repeat-x;
+}
+.vinav_title li a{
+    position: relative;
+    display: block;
+    width: 110px;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 22px;
+}
+.vinav_title li span{
+     display: block;
+     position: absolute;
+     line-height: 25px;
+     width: 110px;
+     color: #fff;
+     height: 30px;
+     top: 10px;
+     border-radius: 15px 15px 0 0;
+ }
+.vinav_title li  .active span,.vinav_title li span:hover{
+    background: #fffcdb;
+    color: #000;
+    line-height: 32px;
+}
+.vinav_title li .active:before,.vinav_title li a:hover:before{
+    content: '';
+    width: 122px;
+    height: 26px;
+    display: block;
+    position: absolute;
+    background: url(../images/m19.png)no-repeat;
+    top: 13px;
+    left: -5px;
+}
+.bk-vicenav .vinav-scnt{
+    background: #fffcdb;
+    overflow: hidden;
+    height: auto;
+}
+.vinav-scnt h5{
+    width: 146px;
+    height: 45px;
+    line-height: 45px;
+    float: left;
+    text-indent: 47px;
+    font-size: 15px;
+    color: #3f8124;
+    letter-spacing: 28px;
+}
+.vinav-scnt .vinav-scnt-ul{
+    float: left;
+    width: 80%;
+}
+.vinav-scnt-ul a{
+    display: inline-block;
+    height:45px;
+    line-height: 45px;
+}
+.vinav-scnt-ul a:nth-child(5n+1){
+    width:190px;
+}
+.vinav-scnt-ul a:nth-child(5n-3),.vinav-scnt-ul a:nth-child(5n-2){
+    width:205px;
+}
+.vinav-scnt-ul a:nth-child(5n-1){
+    width:255px;
+}
+.vinav-scnt-ul a:hover,.vinav-scnt-ul a.acolor{
+    color: #ee7800;
+}
+.bk-mant{
+    width:1210px;
+    height:465px;
+    margin: auto;
+}
+.bk-mant .bk-class{
+    width: 668px;
+    height:465px;
+    float: left;
+    margin-top: 30px;
+}
+.bk-class h3,.bk-explain h3{
+    height: 22px;
+    font-size: 16px;
+    color: #3f8124;
+    margin-bottom: 8px;
+    text-indent: 28px;
+    background: url(../images/m14.png) no-repeat 10px center;
+}
+.bk-class p{
+    height: 38px;
+    line-height: 38px;
+    background: url(../images/m16.png) no-repeat left, url(../images/m17.png) no-repeat right;
+    background-color: #8fc31f;
+    border: 2px solid #98cb61;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #fff;
+    padding-left: 46px;
+    letter-spacing: 10px;
+}
+.bk-class p i{
+    margin-left: 40px;
+    display: inline-block;
+    padding-left: 232px;
+    border-left:2px solid #fff;
+    letter-spacing: 20px;
+}
+.class-list{
+    height:404px;
+    border-top:none;
+    border-radius: 0px 0px 8px 8px;
+    background: #fffcdb;
+    position: relative;
+    overflow: hidden;
+    -webkit-box-shadow: 3px 5px 5px #f2f2f2;
+    -moz-box-shadow: 3px 5px 5px #f2f2f2;
+    -ms-box-shadow: 3px 5px 5px #f2f2f2;
+}
+.class-box{
+    width: 610px;
+    height: 395px;
+    overflow: hidden;
+    margin: auto;
+}
+.class-box ul{
+    width:610px;
+}
+.class-box li{
+    height:38px;
+    line-height: 38px;
+    border-bottom: 1px solid #e4e3db;
+    cursor: pointer;
+}
+.class-box li:hover{
+    background: #8fd046;
+}
+.class-box li:hover span{
+    color: #fff;
+}
+.class-box span{
+    display: inline-block;
+    font-size: 15px;
+    color: #666;
+}
+.class-box span:first-child{
+    width:175px;
+    text-indent:20px;
+}
+/*.bk-scroll{
+    width:11px;
+    height:375px;
+    background: #ebebeb;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.bk-scbox{
+    width:11px;
+    height:375px;
+    position: relative;
+}
+.bk-drag{
+    width: 11px;
+    height:60px;
+    background: #abdc64;
+    position: absolute;
+    left:0;
+    top:0;
+    border-radius:8px;
+}*/
+.bk-explain{
+    width: 515px;
+    height:475px;
+    float: right;
+    margin-top: 35px;
+}
+.bk-explain h3{
+    background: url(../images/m15.png) no-repeat 10px 7px;
+}
+.exp_video{
+    width:501px;
+    height:267px;
+    border:6px solid #8fc31f;
+    border-radius: 13px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.exp_video img{
+    display: inline-block;
+    width: 100%;
+}
+.exp_datum{
+    width:100%;
+    height:110px;
+    overflow: hidden;
+    border: 1px solid #dcdcdb;
+    border-radius: 8px;
+    -webkit-box-shadow: inset 0 0 10px #e0e0e0;
+    -moz-box-shadow: inset 0 0 10px #e0e0e0;
+    -ms-box-shadow: inset 0 0 10px #e0e0e0;
+}
+.exp_datum dl{
+    float: left;
+    width: 108px;
+    height: 78px;
+    margin: 8px 0px 0px 15px;
+}
+.exp_datum dl:last-child{
+    border:none;
+}
+.exp_datum dl dt,.exp_datum dl dd{
+    margin-right: 13px;
+    width:108px;
+    text-align: center;
+}
+.exp_datum dl dt img{
+    display: block;
+    margin: auto;
+}
+.exp_datum h4,.exp_datum button,.exp_datum p{
+    font-size: 12px;
+}
+.exp_datum h4{
+    margin: 2px 0;
+}
+.exp_datum dl dd:nth-child(3){
+    margin-top: -4px;
+}
+.exp_datum button{
+    display: inline-block;
+    width:61px;
+    height:21px;
+    color: #fff;
+    letter-spacing: 5px;
+    border-radius: 10px;
+    background: #8fc31f;
+ }
+.exp_datum dl dt,.exp_datum dl dd{
+    float: left;
+}
+
+/*-----------------------------备课-学科介绍-------------------------------------------------*/
+.bksub-cont{
+    width: 1210px;
+    margin:auto;
+}
+.bksub-cont .bksub-nav{
+    width: 1138px;
+    margin: auto;
+    height:38px;
+    padding-left: 72px;
+    background: #fffcdb url("../images/m25.png") no-repeat  10px bottom;
+}
+.bksub-nav li{
+    float: left;
+    color: #eb6100;
+    font-size:16px;
+    cursor: pointer;
+    line-height: 38px;
+}
+.bksub-nav li:not(.bksub-print):after{
+    content: '';
+    display: inline-block;
+    width:7px;
+    height:9px;
+    margin: 0 8px;
+    background: url("../images/m26.png") no-repeat center;
+}
+.bksub-nav li:nth-child(4):after{
+    background: none;
+}
+.bksub-nav li.bksub-print{
+    width: 155px;
+    float: right;
+    text-indent: 42px;
+    background: url(../images/m28.png) no-repeat left center;
+}
+.bksub-nav li.bksub-print:after{
+    content: '';
+    display: block;
+}
+.bksub-cont .bksub-matter{
+    height:515px;
+    margin-top: 20px ;
+}
+.bksub-matter .bksub-left{
+    width:280px;
+    float: left;
+    border-radius: 12px;
+    background: #f2f2f2;
+    border:2px solid #d4d4d4;
+    box-shadow: 0px 0px 20px #f2f2f2 inset,0px 0px 20px #f2f2f2;
+}
+.bksub-left ul{
+    height: 503px;
+    width: 270px;
+    background: #8fc31f;
+    border-radius: 12px;
+    margin: 4px auto;
+}
+.bksub-left li:first-child{
+    padding-top: 5px;
+    background: url(../images/m27.jpg) center 64px no-repeat;
+}
+.bksub-left li{
+    width: 270px;
+    height: 60px;
+    margin: 5px auto;
+    cursor: pointer;
+    background: url(../images/m27.jpg) center 59px no-repeat;
+    text-indent: 7px;
+}
+.bksub-left li i{
+    display: block;
+    width:243px;
+    font-size:16px;
+    margin: auto;
+    padding-top: 4px ;
+    color: #fff;
+}
+.bksub-left li i:last-child{
+    font-size:14px;
+    padding-bottom:12px;
+}
+.bksub-left li.bksub-left-select{
+    background: #fff33f;
+
+}
+.bksub-left li.bksub-left-select a，.bksub-left li.bksub-left-select i{
+    color: #707070;
+}
+.bksub-left li:first-child.bksub-left-select{
+    border-radius: 10px 10px 0px 0px;
+}
+.bksub-left li a{
+    font-size:16px;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 25px 0 15px;
+    color: #fff;
+    background: url("../images/m31.png") no-repeat 70px center;
+}
+.bksub-left li a.bg{
+    background: url("../images/m29.png") no-repeat 70px center;
+}
+.bksub-left li p{
+    display: block;
+    width:230px;
+    overflow: hidden;
+    height: 40px;
+    color: #fff;
+    margin-left: 25px;
+    text-indent: 25px;
+    line-height: 40px;
+    background: url(../images/m27.jpg) center 39px no-repeat,url("../images/m30.png")no-repeat 8px center;
+    display: none;
+}
+.bksub-left li p:hover{
+    background: rgba(255, 255, 255, 0.5);
+    color: #707070;
+}
+.bksub-matter .bksub-right{
+    width: 895px;
+    height:510px;
+    float: right;
+    position: relative;
+    border-radius: 8px;
+    -webkit-box-shadow:inset 0 0 10px #d2d2d2;
+    -moz-box-shadow:inset 0 0 10px #d2d2d2;
+    box-shadow:inset 0 0 10px #d2d2d2;
+}
+.bksub-right .bksub-box{
+    width: 882px;
+    height: 500px;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    display: none;
+}
+.bksub-right .bksub-sclbox{
+    width: 882px;
+    margin:auto;
+}
+.bksub-sclcnt{
+    width: 878px;
+    height: 500px;
+    overflow: hidden;
+}
+.bksub-right div.bksub-txt{
+    width: 878px;
+    height: 500px;
+}
+.bksub-right .bksub-right-select{
+    display: block;
+}
+.bksub-video{
+    width: 970px;
+    height:520px;
+    border-radius: 8px;
+    background: #fff;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-top: -350px;
+    margin-left: -485px;
+}
+#bksub-shade{
+    width: 100%;
+    display: none;
+    background: rgba(0, 0, 0, 0.5);
+}
+.bksub-close{
+    background: url("../images/m36.png") no-repeat;
+    width: 48px;
+    height: 56px;
+    position: absolute;
+    top: -56px;
+    right: 2px;
+    opacity: 1;
+}
+/*-----------------------------备课-培训中心-------------------------------------------------*/
+.bk-pxzx-cnt{
+   /* padding-top: 12px;*/
+    height: 400px;
+    border: 1px solid #d9d9d9;
+    border-top: none;
+    border-radius: 0px 0px 8px 8px;
+    -webkit-box-shadow: 3px 5px 5px #f2f2f2;
+    -moz-box-shadow: 3px 5px 5px #f2f2f2;
+    -ms-box-shadow: 3px 5px 5px #f2f2f2;
+}
+.bk-pxzx-cnt h4{
+    width:157px;
+    text-align: center;
+    color: #3f8124;
+    font-size:16px;
+    float: left;
+    margin-top: 6px;
+}
+.bk-pxzx-box{
+    width: 970px;
+    height:400px;
+    float: left;
+}
+.bk-pxzx-scl{
+    width:970px;
+    height:400px;
+    overflow: hidden;
+}
+.bk-pxzx-ul li{
+    width: 970px;
+    height: 38px;
+    line-height: 38px;
+    font-size:15px;
+    color: #666;
+    padding: 0;
+    cursor: pointer;
+    border-bottom: 1px solid #e6e5db;
+}
+.bk-pxzx-ul li:hover,.bk-pxzx-ul li:hover a{
+    background: #fff799;
+    color: #3f8124;
+}
+.bk-pxzx-ul a{
+    display: inline-block;
+    width:65px;
+    text-align: left;
+    color: #666;
+    margin: 0 18px;
+}
+.bk-pxzx-ul i{
+    float: right;
+    padding-right: 32px;
+    line-height: 38px;
+}
+/*-----------------------------授课-首页-------------------------------------------------*/
+.sk-cont{
+    width: 1210px;
+    height:300px;
+    margin: auto;
+    position: relative;
+}
+.sk-cont .sk-left{
+    width: 790px;
+    height: 265px;
+    float: left;
+    padding-top: 40px;
+    background: url(../images/m37.png) no-repeat;
+}
+.sk-cont .sk-calendar{
+    width:394px;
+    height:300px;
+    float: right;
+    position: relative;
+    background: url("../images/m38.png") no-repeat;
+}
+.week li,.days li{
+    width: 25px !important;
+}
+#ca{
+    position: absolute;
+    top: 95px;
+    left: 110px;
+}
+.sk-year{
+    width: 75px;
+    height: 55px;
+    background: url(../images/mdata4.png) no-repeat;
+    position: absolute;
+    top: 114px;
+    background-size: 98%;
+    right: 14px;
+}
+.sk-timetable{
+    width:525px;
+    height:55px;
+}
+.sk-tb{
+    font-size: 15px;
+    color: #707070;
+    display: inline-block;
+    line-height: 50px;
+    border-bottom:1px solid #e9cea3;
+}
+i.sk-tb{
+    width:215px;
+}
+.sk-timetable span{
+    display: inline-block;
+    width: 45px;
+    padding: 0px 27px;
+}
+.sk-left .sk-scroll{
+    width: 524px;
+    height: 218px;
+    margin-top: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.sk-scroll .sk-sclmant{
+    width: 525px;
+    height:218px;
+    overflow: hidden;
+    position: absolute;
+    top:0px;
+    left:0px;
+ }
+.sk-bul{
+    width: 525px;
+    position: absolute;
+}
+.sk-timetable button{
+    width:80px;
+    height:30px;
+    font-size:14px;
+    border-radius: 8px;
+    margin: 10px 15px 0px 0px;
+    float: left;
+    color: #fff;
+    background: url("../images/m39.jpg") repeat-x;
+}
+.sk-timetable p{
+    width: 310px;
+    margin-top: 15px;
+    float: left;
+    font-size: 16px;
+    color: #707070;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e9cea3;
+}
+.sk-timetable p i{
+    margin: 0 45px;
+}
+.sk-timetable img{
+    float: left;
+    width: 40px;
+    height: 38px;
+    margin: 0 20px;
+}
+
+.sc-left-data .time{
+    float: left;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background: #f39800;
+    font-size: 20px;
+    margin: 105px 0px 0px 50px;
+}
+.showtime{
+    width: 90px;
+    height: 90px;
+    color: #fff;
+    text-align: center;
+    border: 1px dashed #fff;
+    border-radius:50%;
+    margin: 10px auto;
+}
+.showtime span{
+    display: block;
+    width: 100%;
+}
+.showtime .sk-day{
+    padding: 20px 0px 12px 0px;
+}
+.sc-left-data .sk_table {
+    width: 525px;
+    height:220px;
+    float: left;
+    overflow: hidden;
+    margin-left: 60px;
+    position: relative;
+}
+.sk_show {
+    width: 525px;
+    height: 220px;
+    overflow: hidden;
+}
+.sk-t tr{
+    width: 100%;
+    height: 55px;
+}
+.sk-rat{
+    width: 1210px;
+    height:330px;
+    margin: 18px auto;
+    border:3px dashed #cfa972;
+    background: url(../images/m42.png) no-repeat -12px 160px,url(../images/m47.png) no-repeat 90px 30px, url(../images/m43.png) no-repeat 1040px 180px,url(../images/m44.png) no-repeat 1090px 15px;
+    background-color: #fffcdb;
+}
+.sk-rat h4{
+    width: 260px;
+    height: 35px;
+    font-size: 18px;
+    margin: 58px 0px 0px 135px;
+    color: #707070;
+    line-height: 35px;
+    text-align: center;
+    -moz-text-shadow: 0 1px 1px #c0c0c0;
+    -webkit-text-shadow: 0 1px 1px #c0c0c0;
+    -ms-text-shadow: 0 1px 1px #c0c0c0;
+}
+.sk-check{
+    width: 148px;
+    height:57px;
+    margin: 80px 0px 0px 226px;
+    float: left;
+}
+.sk-check a{
+    color: #6fba2c;
+    margin-bottom: 5px;
+    font-size: 18px;
+    text-shadow:0 0 5px #fff, 0 0 10px #fff,0 0 15px #fff, 0 0 40px #fff, 0 0 70px #fff;
+    -moz-text-shadow:0 0 5px #fff, 0 0 10px #fff,0 0 15px #fff, 0 0 40px #fff, 0 0 70px #fff;
+    -webkit-text-shadow:0 0 5px #fff, 0 0 10px #fff,0 0 15px #fff, 0 0 40px #fff, 0 0 70px #fff;
+    -ms-text-shadow:0 0 5px #fff, 0 0 10px #fff,0 0 15px #fff, 0 0 40px #fff, 0 0 70px #fff;
+}
+.sk-check a:last-child i{
+    letter-spacing: 6px;
+    font-size: 18px;
+}
+.sk-rat-cont{
+    width: 600px;
+    height: 300px;
+    float: left;
+    margin: -70px 0px 0px 70px;
+}
+.sk-gauge{
+    height: 265px;
+    margin-bottom: 15px;
+  /*  display:-moz-box; !* Firefox *!
+    display:-webkit-box; !* Safari and Chrome *!*/
+}
+.sk-gauge .sk-gauge-box{
+    width: 91px;
+    height: 265px;
+    float: left;
+    margin-right: 28px;
+   /* -moz-box-flex:1.0; !* Firefox *!
+    -webkit-box-flex:1.0; !* Safari and Chrome *!*/
+}
+.sk-pic{
+    background:  url("../images/m46.png") no-repeat;
+}
+.sk-gauge-box .sk-gauge-box{
+    width: 95px;
+    height: 265px;
+    background: lavenderblush;
+}
+.sk-numbbox{
+    position: absolute;
+    z-index: 99;
+    bottom: 122px;
+    left: -27px;
+}
+.sk-gauge-box a{
+    display: block;
+    width: 52px;
+    height:28px;
+    font-size: 12px;
+    color: #fff;
+    padding-top: 23px;
+    margin-left: 8px;
+    line-height: 13px;
+    white-space:normal;
+    word-wrap:break-word;
+}
+
+/*单个温度计*/
+.sk-gauge-txt{
+    width: 65px;
+    height: 55px;
+    font-size: 12px;
+    color: #fff;
+    background: #ffae00;
+    margin-left: 13px;
+    position: relative;
+    border-radius: 35px 35px 0px 0px;
+    -webkit-box-shadow: 1px 1px 5px #a28686;
+    -moz-box-shadow: 1px 1px 5px #f2f2f2;
+    -ms-box-shadow: 1px 1px 5px #f2f2f2;
+}
+.sk-wdj{
+    width: 91px;
+    height: 265px;
+    position: relative;
+    background:  url(../images/m45.png) 1px bottom no-repeat;
+}
+.sk-numb{
+    display: inline;
+    font-size:14px;
+    text-align: center;
+    padding: 2px 6px;
+    border-radius: 5px;
+    background: #fff799;
+    color: #6fba2c;
+}
+.sk-numbb{
+    color: #f39800;
+}
+.sk-bid{
+    width: 5px;
+    height: 4px;
+    background: url(../images/m48.png) no-repeat;
+    margin-right: 10%;
+    position: absolute;
+    right: 3px;
+    bottom: -5px;
+}
+/*外部包裹温度计div设置*/
+.wdj{
+    position: relative;
+    width: 50px;
+    height: 197px;
+    margin: auto;
+}
+/*修改这里，改变温度计相对于外部div位置*/
+.wdj-wrap{
+    position: absolute;
+    bottom: 10px;
+}
+/*上部刻度*/
+.wdj-top{
+    margin: 0 auto;
+}
+.wdj-top li{
+    list-style: none;
+    background: #cac8c8;
+}
+.wdj-top li.green{
+    background: #6fba2c;
+}
+/*底部圆圈*/
+.wdj-botton{
+    position: absolute;
+    border-radius: 50%;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+    border: 2px solid #6fba2c;
+    z-index: 1;
+    overflow: hidden;
+}
+.wdj-water{
+    left: -20%;
+    position: absolute;
+    background: #6fba2c;
+    border-radius: 40%;
+    animation: water 5s linear infinite;
+}
+
+@keyframes water {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/*滚动条样式*/
+.class-list .mCSB_outside + .mCS-minimal.mCSB_scrollTools_vertical, .mCSB_outside + .mCS-minimal-dark.mCSB_scrollTools_vertical{
+    right: -18px;
+}
+div.bk-pxzx-box .mCSB_outside + .mCS-minimal.mCSB_scrollTools_vertical, .mCSB_outside + .mCS-minimal-dark.mCSB_scrollTools_vertical{
+    right:-50px;
+}
+.bksub-right .mCSB_outside + .mCS-minimal.mCSB_scrollTools_vertical, .mCSB_outside + .mCS-minimal-dark.mCSB_scrollTools_vertical{
+    right: -12px;
+}
+
+
+/*
+.calendar-ct, .calendar-hd, .calendar-views .week, .calendar-views .days{
+    width: 335px;
+}*/

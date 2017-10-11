@@ -1,0 +1,196 @@
+/*新增分组*/
+.add_group{
+	width:1210px;
+	height: 690px;
+	margin:0 auto;
+}
+.add_group .add_pic{
+	height:40px;
+	width:100%;
+	position: relative;
+}
+.add_group .add_pic p{
+	width:120px;
+	height:100%;
+	cursor:pointer;
+	background:url('../images/ungroup/add.png') no-repeat;
+	position:absolute;
+	left:1090px;
+}
+.group_pic img:nth-child(1){
+	margin-left:0px;
+}
+.group_pic img:nth-child(2){
+	margin-left:20px;
+}
+.group_pic img:nth-child(3){
+	width:1011px;
+	margin-left:15px;
+	padding-bottom: 11px;
+}
+.group_space{
+	width:350px;
+	height:80px;
+	margin-top:10px;
+	margin-bottom:20px;
+	position:relative;
+	background:url('../images/ungroup/ds.png') no-repeat;
+}
+.group_space img{
+	position:absolute;
+	top:5px;
+	left:5px;
+}
+.group_space span{
+	font-size:24px;
+	color:#ffffff;
+	position:absolute;
+	top:20px;
+	left:126px;
+}
+.one_group{
+	width:1200px;
+	height:140px;
+	border:3px solid #6fba2c;
+	border-radius:13px;
+	position: relative;
+	margin-top:20px;
+}
+.one_group>div{
+	width:1006px;
+	height:140px;
+	background:url('../images/ungroup/under.png') no-repeat;
+	left:-5px;
+	top:-5px;
+	position:absolute;
+}
+.one_group>div p{
+	font-size:24px;
+	color:white;
+	font-family:"Microsoft YaHei";
+	position: absolute;
+	top:15px;
+	left:15px;
+}
+.one_group .one_list{
+	width:1088px;
+	height:113px;
+	position: absolute;
+	line-height:140px;
+	left:60px;
+	top:0px;
+	margin-top:17px;
+}
+.one_group .one_list li{
+	cursor: pointer;
+	width: 113px;
+	height:113px;
+	margin-right: 23px;
+	float:left;
+}
+.one_group .one_list li.groupMember{
+	
+	position:relative;
+	background:url('../images/ungroup/di1.png') no-repeat;
+}
+.one_group .one_list li.addMember{
+	background:url('../images/ungroup/adda.png') no-repeat;
+}
+
+.one_group .one_list li span{
+	position: absolute;
+	top:83px;
+	left:34px;
+	color:white;
+	letter-spacing:7px;
+}
+.one_group .one_list li img{
+	position: absolute;
+	left:4px;
+	top:5px;
+	z-index:-1;
+}
+.group_pic1{
+	margin-top:20px;
+}
+.group_pic1 img:nth-child(1){
+	margin-left:0px;
+}
+.group_pic1 img:nth-child(2){
+	margin-left:20px;
+}
+.group_pic1 img:nth-child(3){
+	width:993px;
+	margin-left:15px;
+	padding-bottom: 11px;
+}
+.un_group{
+	width:1090px;
+	height:410px;
+	/*background:skyblue;*/
+	margin:0 auto;
+}
+.un_group .one_list1{
+	width:1090px;
+	height:100%;
+}
+.un_group .one_list1 li{
+	width: 110px;
+    height: 110px;
+    float: left;
+    cursor: pointer;
+    position: relative;
+    background: url(../images/ungroup/di2.png) no-repeat;
+    margin-right: 26px;
+    margin-bottom: 30px;
+}
+.un_group .one_list1 li.active{
+	background: url(../images/ungroup/di1.png) no-repeat;
+}
+.un_group .one_list1 li img{
+	position: absolute;
+	left:4px;
+	top:5px;
+	z-index:-1;
+}
+.un_group .one_list1 li span{
+	display: inline-block;
+    width: 66px;
+    margin-left: 21px;
+    margin-top: 83px;
+    text-align: center;
+    color: white;
+    letter-spacing: 5px;
+}
+/*页脚*/
+.bk-footimg{
+    width:100%;
+    height:191px;
+
+}
+.bk-footimg img {
+    display: block;
+    width: 100%;
+}
+
+.add_guy img{
+	position:absolute;
+	width:100px;
+	height:100px;
+	top: 25px;
+	left:1012px;
+}
+.guy_del{
+	position:absolute;
+	top: 0px;
+	left:80px;
+	z-index:1;
+	display: block;
+	width: 16px;
+	height: 16px;
+	background: url(../images/ungroup/receace.png) no-repeat;
+	display: none;
+}
+
+
+

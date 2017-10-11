@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>金八力托管-积分排名</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/integral.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css"><!--滚动条-->
+</head>
+<body>
+<div id="integral">
+    <div class="integral">
+        <a class="integral-close"></a><!--关闭按钮-->
+        <div class="integral-cont">
+            <!--E积分导航-->
+            <ul class="integral-nav">
+                <li class="active">个人积分排名</li>
+                <li>组积分排名</li>
+                <li>本课积分排名</li>
+                <li>本课组积分排名</li>
+            </ul>
+            <!--E积分导航-->
+
+            <!--R积分内容-->
+            <div class="integral-cont">
+                <!--第一名-->
+                <div class="integral-one">
+                    <div class="integral-first integral-nub">
+                        <img class="integral-icon" src="images/m62.png"/>
+                        <i>2048分</i>
+                        <p class="integral-name"><a>悟空</a><a>悟空</a><a>沙和尚</a><a>古力娜扎</a><a>悟空</a><a>悟空</a><a>沙和尚</a><a>古力娜扎</a></p>
+                    </div>
+                    <img class="integral-top" src="images/m66.png"/>
+                    <img class="integral-bot"  src="images/m67.png"/>
+                </div>
+                <div class="integral-scroll">
+                <!--第二名-->
+                    <div class="integral-nub">
+                        <img class="integral-icon" src="images/m63.png"/>
+                        <i>2048分</i>
+                        <p class="integral-name"><a>悟空</a><a>悟空</a><a>沙和尚</a><a>古力娜扎</a></p>
+                    </div>
+                    <!--第三名-->
+                    <div class="integral-nub">
+                        <img class="integral-icon" src="images/m64.png"/>
+                        <i>2048分</i>
+                        <p class="integral-name"><a>悟空</a><a>悟空</a><a>沙和尚</a><a>古力娜扎</a></p>
+                    </div>
+                    <!--第四名-->
+                    <div class="integral-nub">
+                        <b>4</b>
+                        <i>2048分</i>
+                        <p class="integral-name"><a>悟空</a><a>悟空</a><a>沙和尚</a><a>古力娜扎</a></p>
+                    </div>
+                    <div class="integral-nub">
+                        <b>5</b>
+                        <i>2048分</i>
+                        <p class="integral-name"><a>悟空</a><a>悟空</a><a>沙和尚</a><a>古力娜扎</a></p>
+                    </div>
+                    <div class="integral-nub">
+                        <b>6</b>
+                        <i>2048分</i>
+                        <p class="integral-name"><a>悟空</a><a>悟空</a><a>沙和尚</a><a>古力娜扎</a></p>
+                    </div>
+                    <div class="integral-nub">
+                        <b>7</b>
+                        <i>2048分</i>
+                        <p class="integral-name"><a>悟空</a><a>悟空</a><a>沙和尚</a><a>古力娜扎</a></p>
+                    </div>
+                    <div class="integral-nub">
+                        <b>8</b>
+                        <i>2048分</i>
+                        <p class="integral-name"><a>悟空</a><a>悟空</a><a>沙和尚</a><a>古力娜扎</a></p>
+                    </div>
+                </div>
+
+            </div>
+            <!--E积分内容-->
+        </div>
+    </div>
+</div>
+<script src="js/jquery1.8.3.min.js"></script>
+<script src="js/jquery.mousewheel.min.js"></script>
+<script src="js/jquery.mCustomScrollbar.min.js"></script>
+<script>
+    (function($){
+        $(window).load(function(){
+            $(".integral-scroll").mCustomScrollbar({
+                theme:"minimal"
+                // 这里可以根-据背景颜色来通过theme选择自定义样式，
+            });
+            /*姓名2个字，间距*/
+            $('.integral-name a').each(function(){
+                var length = $(this).text().length;
+                if(length == 2){
+                    $(this).css('letter-spacing','14px');
+                }
+            });
+            /*排名导航*/
+            $('.integral-nav li').click(function () {
+                $(this).addClass('active').siblings().removeClass('active');
+            });
+        });
+    })(jQuery);
+
+    /*滚动条*/
+</script>
+</body>
+</html>

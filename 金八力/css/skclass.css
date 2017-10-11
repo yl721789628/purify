@@ -1,0 +1,208 @@
+.vote_roll{
+	width:1263px;
+	height:205px;
+	margin: 20px auto;
+	position:relative;
+}
+.vote_com{
+	position:absolute;
+	z-index:1;
+	top:0px;
+	left:46px;
+}
+.vote_pic{
+	width:1190px;
+	height:165px;
+	position:absolute;
+	left:71px;
+}
+.vote_pic a{
+	display: block;
+	float: left;
+}
+.vote_pic a:nth-child(2){
+	position:relative;
+}
+.vote_pic a:nth-child(2) div{
+	position: absolute;
+	top:117px;
+	left:73px;
+}
+.vote_pic a:nth-child(3){
+	position:relative;
+}
+.vote_pic a:nth-child(3) div{
+	position: absolute;
+	top:128px;
+	left:35px;
+}
+.vote_pic a:nth-child(4){
+	position:relative;
+}
+.vote_pic a:nth-child(4) div{
+	position: absolute;
+	top:127px;
+	left:42px;
+}
+.vote_pic a:nth-child(5){
+	position:relative;
+}
+.vote_pic a:nth-child(5) div{
+	position: absolute;
+	top:122px;
+	left:45px;
+}
+.vote_pic a:nth-child(6){
+	position:relative;
+}
+.vote_pic a:nth-child(6) div{
+	position: absolute;
+	top:110px;
+	left:45px;
+}
+
+/**/
+.sk-makeup{
+	width: 1210px;
+	height: 490px;
+	margin: auto;
+	margin-top:30px;
+}
+.sk-makeup .sk-select{
+	width: 778px;
+	height: 40px;
+	margin-left: 427px;
+}
+.sk-selecta{
+	margin-right: 30px;
+}
+.sk-makcont{
+	width: 1204px;
+	height: 430px;
+	margin-top:14px;
+	border-radius: 12px;
+	border: 3px solid #6fba2c;
+}
+.sk-makmant{
+	width: 1163px;
+	height: 400px;
+	margin: 10px auto;
+	padding-left: 15px;
+	border-radius: 12px;
+	box-shadow: 0 0 10px #ccc;
+}
+.sk-makmant h4{
+	width: 1141px;
+	height: 67px;
+	line-height: 67px;
+	margin-left: 5px;	
+	border-bottom: 2px solid #6fba2c;
+}
+.sk-makmant h4 i,.sk-makscroll p i{
+	display: inline-block;
+	font-size: 18px;
+	color: #707070;
+	text-align: center;
+	width: 228px;
+}
+.sk-makmant h4 i:first-child,.sk-makscroll p i:first-child{
+	width: 210px;
+}
+.sk-makmant h4 i:last-child,.sk-makscroll p i:last-child{
+	width: 207px;
+	border: none;
+}
+.sk-makscroll p i:last-child{
+	color: #6fba2c;
+}
+
+.sk-makscroll{
+	width: 1141px;
+	height: 328px;
+	margin: 0px 0px 4px 4px;
+	overflow: hidden;
+}
+.sk-makscroll p{
+	height: 40px;
+	border-bottom: 1px dashed #e3e2db;
+}
+.sk-makscroll p:hover{
+	background: #fffcdb;
+}
+.sk-makscroll p i{
+	line-height: 40px;
+	font-size: 16px;
+	border-right: 1px solid #e0dfdb;
+}
+.sk-makscroll .mCSB_outside + .mCS-minimal.mCSB_scrollTools_vertical, .mCSB_outside + .mCS-minimal-dark.mCSB_scrollTools_vertical{
+	right: 0;
+    position: absolute;
+     margin: 0px; 
+    right: -19px;
+}
+/*弹窗CSS*/
+.mask{
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 1;
+	left: 0px;
+	top: 0px;
+	background: rgba(0,0,0,0.5);
+}
+.maskCon{
+	width: 550px;
+	height: 300px;
+	background: #fff;
+	border: 2px solid #6fc81f;
+	border-radius: 10px;
+	position: fixed;
+	left:50%;
+	top:50%;
+	margin: -194px 0 0 -275px;
+}
+.masknav{
+	width:550px;
+	height:50px;
+	border-radius: 10px;
+	background:linear-gradient(to bottom,#54a10f,#8af828);
+}
+.mastea{
+	font-size:20px;
+	text-align:center;
+	padding-top:50px;
+}
+.mastea span{
+	display: inline-block;
+	cursor: pointer;
+	width: 24px;
+	/*height: 30px;*/
+	border-radius: 8px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 30px;
+	margin:0 13px;
+}
+.maskCon p span{
+	display: inline-block;
+	cursor: pointer;
+	width: 120px;
+	height: 30px;
+	border-radius: 8px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 30px;
+	margin:0 76px;
+}
+.maskCon p{
+	margin-top: 55px;
+}
+.maskCon span.cancelBtn{
+	background: #a4a9a0;
+	color:#fff;
+}
+.maskCon span.ensureBtn{
+	background:#65b41e;
+	color:#fff;
+}

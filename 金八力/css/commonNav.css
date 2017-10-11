@@ -1,0 +1,53 @@
+.vote_roll{
+	margin: 0 auto;
+	width:1263px;
+	height:205px;
+	/*background:pink;*/
+	margin-top:20px;
+	position:relative;
+}
+.vote_com{
+	position:absolute;
+	z-index:1;
+	top:0px;
+	left:46px;
+}
+.vote_pic{
+	width:1190px;
+	height:165px;
+	position:absolute;
+	left:71px;
+}
+.vote_pic a{
+	display: block;
+	float: left;
+}
+.vote_pic a.navLink{
+	position:relative;
+}
+.vote_pic a.navLink div{
+	position: absolute;
+}
+.vote_pic a.call  div{
+	top:117px;
+	left:73px;
+}
+.vote_pic a.courseware div{
+	top:128px;
+	left:35px;
+}
+.vote_pic a.add div{
+	top:127px;
+	left:42px;
+}
+.vote_pic a.group div{
+	top:122px;
+	left:45px;
+}
+.vote_pic a.record div{
+	top:110px;
+	left:45px;
+}
+.changeImg{
+	display: none;
+}

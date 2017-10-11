@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>金八力托管-金八力商城-商品详情</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/shop.css">
+    <!--联动收货地址菜单-->
+    <link href="css/city-picker.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="shop">
+    <!--R导航logo-->
+    <div class="shop-site">
+        <div class="shop-vite">
+            <h3 class="shop-vite-title">金八力商城欢迎您</h3>
+            <ul class="shop-vite-ul">
+                <li>
+                    <a class="shop-icon icon-cart" href="shop-cart.html" target="_blank">购物车</a>
+                    <i class="icon-cart-nub" data-value="0"></i>
+                </li>
+                <li>
+                    <a class="shop-icon icon-order" href="shop-mygoods.html">我的订单</a>
+                </li>
+                <li>
+                    <a>客服电话4000-815-518</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--E导航logo-->
+
+    <!--R搜索栏-->
+    <div class="shop-search">
+        <a href="shop.html" class="shop-logo"></a>
+        <form class="shop-form">
+            <input type="text" placeholder="金八力作文">
+            <button class="btn-search">搜索</button>
+        </form>
+    </div>
+    <!--E搜索栏-->
+
+    <!--R主导航-->
+    <div class="shop-navbox">
+        <ul class="shop-nav">
+            <li><a href="shop.html">首页</a></li>
+            <li><a href="shop-book.html">教材</a></li>
+            <li><a class="active" href="shop-aid.html">教具</a></li>
+            <li><a href="shop-material.html">物料</a></li>
+        </ul>
+    </div>
+    <!--E主导航-->
+
+    <!--R商品详情-->
+    <div id="shop-details">
+        <div class="details-tle">
+            <a>教材商城</a>
+            <a>教材</a>
+            <a>作文</a>
+            <a>看图写话</a>
+        </div>
+        <div class="cot-cart-ok">
+            恭喜您，商品已成功加入购物车！
+        </div>
+        <div class="shop-good">
+            <div class="shop-godbox">
+                <div class="shop-godimg">
+                    <img src="images/m53.jpg"/>
+                </div>
+                <div class="cot-details">
+                    <h4>金八力自主研发</h4>
+                    <p>￥<i>98元</i></p>
+                    <div class="cot-details-tle"><a>轻松轻松写日写日记(三年级以上)</a><!--<span>轻松轻松写日写日记(三年级以上)</span>--></div>
+                    <div class="cot-txt-nub">销量：<i>8710</i></div>
+                    <div class="cot-btns">
+                        <button class="cot-cart shop-icon"><a>加入购物车</a></button>
+                        <!--立即购买/若有收获地址，则跳转到shop-lineitem.html。如没有，弹窗-->
+                        <button class="cot-buy cd-popup-trigger0"><a>立即购买</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="cot-picture">
+                <h6>商品详情</h6>
+                <!--暂时不能确定大小-->
+                <div class="cot-picture-img">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--E商品详情-->
+
+    <!--R页脚-->
+    <div id="shop-foot">内容暂定</div>
+    <!--E页脚-->
+
+    <!--R弹窗-收货地址填写-->
+    <div class="cd-popup">
+        <div class="cd-popup-container">
+            <a href="#0" class="cd-popup-close"></a><!--关闭按钮-->
+            <h6>新增收货人信息</h6>
+            <form>
+                <div class="shop-people">
+                    <i class="docs-name">收货人：</i>
+                    <input class="cd-input" type="text" placeholder="收货人姓名">
+                </div>
+                <div class="docs-methods">
+                    <i class="docs-name">所在地：</i>
+                    <div class="form-inline">
+                        <div id="distpicker">
+                            <div class="form-group">
+                                <div class="form-group-box">
+                                    <input id="city-picker3" class="form-control" readonly type="text" value="江苏省/常州市/溧阳市" data-toggle="city-picker">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop-peoadrs">
+                        <i class="docs-name">收货人：</i>
+                        <input class="cd-input" type="text" placeholder="详细地址">
+                    </div>
+                    <div class="shop-phone">
+                        <i class="docs-name">手机号：</i>
+                        <input class="cd-input" type="tel" placeholder="请输入您的手机号">
+                        <i class="docs-name">固定电话：</i>
+                        <input class="cd-input" type="text" placeholder="非必填项">
+                    </div>
+                    <input class="cd-btn" type="submit" value="保存联系人信息">
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--E弹窗-收货地址填写-->
+</div>
+<script src="js/jquery1.8.3.min.js"></script>
+<!--联动收货地址-->
+<!--<script src="js/bootstrap.js"></script>-->
+<script src="js/city-picker.data.js"></script>
+<script src="js/city-picker.js"></script>
+<script src="js/main.js"></script>
+<script src="js/shop.js"></script>
+<script src="js/popup.js"></script>
+<!--弹窗-成功加如购物车-->
+<script src="js/shop-tancenter.js"></script>
+</body>
+</html>

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>课程列表</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/course.css">
+    <link rel="stylesheet" href="css/head.css">
+</head>
+<body >
+		<!--主导航-->
+<div class="prepare">
+    <div class="bk-head">
+        <ul class="bt_set">
+            <li>客服电话&nbsp;4000-815-518</li>
+            <li class="set_user">
+                <i class="set-name">用户名</i>
+                <ul class="set_change_user">
+                    <li>修改密码</li>
+                    <li>退出</li>
+                </ul>
+            </li><!--有新消息时，添加class名has-->
+            <li class="set_news has">消息</li>
+        </ul>
+        <div class="bk-mainnav">
+            <ul class="mnav-nav">
+                <!--当前选项的a添加class名字 mnav+数字-->
+                <li class="mnav-li">
+                    <a class="mav">备&nbsp;课</a>
+                    <div class="mnav-option">
+                        <div class="mnav-bid"></div>
+                        <ul class="mnav-cont">
+                            <!--当前选项的a添加class名字active-col-->
+                            <li><a href="bk-kjsp.html">课件视频</a></li>
+                            <li><a href="bk-xkjs.html">学科介绍</a></li>
+                            <li><a href="bk-pxzx.html">培训中心</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="mnav-li">
+                    <a class="mav">授&nbsp;课</a>
+                    <div class="mnav-option">
+                        <div class="mnav-bid"></div>
+                        <ul class="mnav-cont">
+                            <li><a href="shouke.html">首页</a></li>
+                            <li><a href="lessonmodify.html">授课</a></li>
+                            <li><a href="schedule.html">课表管理</a></li>
+                            <li><a href="">分享</a></li>
+                            <li><a href="">记录</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="mnav-li">
+                    <a href="manage.html" class="mav">校内管理</a>
+                    <div class="mnav-option">
+                        <div class="mnav-bid"></div>
+                        <ul class="mnav-cont" >
+                            <li><a href="">课件视频</a></li>
+                            <li><a href="">学科介绍</a></li>
+                            <li><a href="">课件视频</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="mnav-li">
+                    <a class="mav">测&nbsp;评</a>
+                    <div class="mnav-option">
+                        <div class="mnav-bid"></div>
+                        <ul class="mnav-cont">
+                            <li><a href="">课件视频</a></li>
+                            <li><a href="">学科介绍</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="mnav-li">
+                    <a class="mav">培&nbsp;训</a>
+                    <div class="mnav-option">
+                        <div class="mnav-bid"></div>
+                        <ul class="mnav-cont">
+                            <li><a href="">课件视频5</a></li>
+                            <li><a href="">学科介绍5</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+	<!-- banne部分开始
+	<div class="lesson_banner">
+		<img src="images/banner.jpg" alt="">
+	</div>
+	banne部分结束 -->
+	<!-- tab切换 -->
+	<div class="tabBox">
+		<span>作文/阅读</span>
+		<span>认字</span>
+		<span>拼音</span>
+		<span>思维数学</span>
+		<span>注意力训练</span>
+		<span>成语谚语</span>
+		<span>启蒙写字</span>
+		<span>托管</span>
+	</div>
+
+
+	<!-- container部分开始 -->
+	<div class="lesson_container">
+		<!-- 级别部分开始 -->
+		<div style="float:left;width: 280px;height: 509px;">
+			<div class="lesson_up">
+                <div class="lesson_scroll">
+                    <ul class="lesson_word">
+                        <li id="seepic"><a>看图说话</a></li>
+                        <li><a>轻松写日记(三年级以上)</a></li>
+                        <li><a>认字轻松写日记(三年级以上)</a></li>
+                        <li><a>认字</a></li>
+                        <li><a>认字</a></li>
+                        <li><a>认字</a></li>
+                        <li><a>认字</a></li>
+                    </ul>
+                </div>
+                <div class="dragBox">
+                	<div class="dragOutBox">
+						<div class="drag"></div>
+	                </div>
+                </div>
+			</div>
+			<!-- 级别部分结束 -->
+			<!-- 日历部分开始 -->
+		<!-- 	<div class="contl-data"> -->
+	                <!--日历-->
+	            <div class='calendar' id='calendar'>
+					<div class="week"><i>SUN</i><i>MON</i><i>TUE</i><i>WED</i><i>THU</i><i>FRI</i><i>SAT</i></div>
+	            </div>
+	       <!--  </div> -->
+		</div>
+		<!-- 日历部分结束 -->
+		<!-- 班级列表 -->
+        <div class="lesson_list">
+			<div class="titleBg"></div>
+			<div class="lesson_ten_out">
+				<div class="lesson_ten">
+					<div class="lessonConBox">
+						<ul class="lessonCon">
+							<li>
+								<a href="vote.html">
+									<span class="classNum">第一讲</span>
+									<span class="classMaster">孙子兵法</span>
+								</a>
+							</li>
+							<li>
+								<a href="vote.html">
+									<span class="classNum">第一讲</span>
+									<span class="classMaster">孙子兵法</span>
+								</a>
+							</li>
+							<li>
+								<a href="vote.html">
+									<span class="classNum">第一讲</span>
+									<span class="classMaster">孙子兵法</span>
+								</a>						
+							</li>
+							<li>
+								<a href="vote.html">
+									<span class="classNum">第一讲</span>
+									<span class="classMaster">孙子兵法</span>
+								</a>	
+							</li>
+							<li>
+								<a href="vote.html">
+									<span class="classNum">第一讲</span>
+									<span class="classMaster">孙子兵法</span>
+								</a>	
+							</li>
+							<li>
+								<a href="vote.html">
+									<span class="classNum">第一讲</span>
+									<span class="classMaster">孙子兵法</span>
+								</a>	
+							</li>
+							<li>
+								<a href="vote.html">
+									<span class="classNum">第一讲</span>
+									<span class="classMaster">孙子兵法</span>
+								</a>	
+							</li>
+							<li>
+								<a href="vote.html">
+									<span class="classNum">第一讲</span>
+									<span class="classMaster">孙子兵法</span>
+								</a>	
+							</li>
+							<li>
+								<a href="vote.html">
+									<span class="classNum">第一讲</span>
+									<span class="classMaster">孙子兵法</span>
+								</a>	
+							</li>
+
+							<li>
+								<a href="vote.html">
+									<span class="classNum">第一讲</span>
+									<span class="classMaster">孙子兵法</span>
+								</a>	
+							</li>
+							<li>
+								<a href="vote.html">
+									<span class="classNum">第一讲</span>
+									<span class="classMaster">孙子兵法</span>
+								</a>	
+							</li>
+							<li>
+								<a href="vote.html">
+									<span class="classNum">第一讲</span>
+									<span class="classMaster">孙子兵法</span>
+								</a>	
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="lessonWrapBox">
+					<div class="lessonDragBox">
+						<div class="lessonDrag"></div>
+					</div>
+				</div>
+			</div>
+        </div>
+		</div>
+	</div>
+	<!--页脚-->
+	<div class="bk-footimg">
+	    <img src="images/m24.jpg" />
+	</div>
+
+	<!-- container部分结束 -->
+	<script src="js/jquery1.8.3.min.js"></script>
+	<script src="js/course.js"></script>
+	<script src="js/scrollJQ.js"></script>
+    <script src="js/calendar.js"></script>
+	<script>
+	/*级别部分滚动条*/
+		var out = $('.lesson_scroll');
+		var con = $('.lesson_word');
+		var drag = $('.drag');
+		var box = $('.dragOutBox');
+		scrollY(drag,box,out,con)
+		/*班级列表滚动条*/
+		var lessonCon = $('.lessonCon');
+		var lessonConBox = $('.lessonConBox');
+		var lessonDrag = $('.lessonDrag');
+		var lessonDragBox = $('.lessonDragBox');
+		scrollY(lessonDrag,lessonDragBox,lessonConBox,lessonCon)
+	</script>
+</body>
+</html>

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>八力云-授课-课表管理-阶段评价</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/head.css">
+    <link rel="stylesheet" type="text/css" href="css/schedule.css">
+</head>
+<body>
+<!--R主导航-->
+<div class="prepare">
+    <div class="bk-head">
+        <ul class="bt_set">
+            <li>客服电话&nbsp;4000-815-518</li>
+            <li class="set_user">
+                <i class="set-name">用户名</i>
+                <ul class="set_change_user">
+                    <li>修改密码</li>
+                    <li>退出</li>
+                </ul>
+            </li>
+            <!--有新消息时，添加class名has-->
+            <li class="set_news has">消息</li>
+        </ul>
+        <div class="bk-mainnav">
+            <ul class="mnav-nav">
+                <!--当前选项的a添加class名字 mnav+数字--->
+                <li class="mnav-li">
+                    <a class="mav">备&nbsp;课</a>
+                    <div class="mnav-option">
+                        <div class="mnav-bid"></div>
+                        <ul class="mnav-cont">
+                            <!--当前选项的a添加class名字active-col-->
+                            <li><a href="bk-kjsp.html">课件视频</a></li>
+                            <li><a href="choice.html">学科介绍</a></li>
+                            <li><a href="bk-pxzx.html">培训中心</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="mnav-li">
+                    <a class="mav  mnav2">授&nbsp;&nbsp;课</a>
+                    <div class="mnav-option">
+                        <div class="mnav-bid"></div>
+                        <ul class="mnav-cont">
+                            <li><a href="shouke.html">首页</a></li>
+                            <li><a href="lessonmodify.html">授课</a></li>
+                            <li><a  class="active-col" href="schedule.html">课表管理</a></li>
+                            <li><a href="javascript:void(0);">分享</a></li>
+                            <li><a href="javascript:void(0);">记录</a></li>
+                            <li><a href="javascript:void(0);">设置</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="mnav-li">
+                    <a href="manage.html" class="mav">校内管理</a>
+                </li>
+                <li class="mnav-li">
+                    <a class="mav">测&nbsp;&nbsp;评</a>
+                    <div class="mnav-option">
+                        <div class="mnav-bid"></div>
+                        <ul class="mnav-cont">
+                            <li><a href="javascript:void(0);">入学测评</a></li>
+                            <li><a href="javascript:void(0);">考试</a></li>
+                            <li><a href="javascript:void(0);">老师测评</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="mnav-li">
+                    <a class="mav">培&nbsp;&nbsp;训</a>
+                    <div class="mnav-option">
+                        <div class="mnav-bid"></div>
+                        <ul class="mnav-cont">
+                            <li><a href="javascript:void(0);">培训课程</a></li>
+                            <li><a href="javascript:void(0);">培训文档</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--E主导航-->
+
+<!--R副导航-->
+<div class="tab_select">
+        <div class="tab_green">
+            <h3><a href="schedule.html">课表管理</a></h3>
+            <h3><a href="">成长伴随</a></h3>
+            <h3><a  class="currentSpan" href="">阶段评价</a></h3>
+        </div>
+        <p class="tab_line"></p>
+    </div>
+<!--E副导航-->
+
+<!--R内容区-->
+<div class="schedule-three">
+    <!--搜索区域-->
+    <div class="schedule-three-tle">
+        <!--搜索框-->
+        <div></div>
+        <!--返回按钮-->
+        <div class="schedule-three-btnapp">评价</div>
+    </div>
+    <!--学生区-->
+    <div class="schedule-three-mant">
+        <!--状态1：未评价-->
+        <label>
+            <i class="input_style checkbox_bg"><input type="checkbox" name="hot" value="1"/></i>
+            <dl>
+                <dt>
+                    <img src="images/m79.jpg"/>
+                </dt>
+                <dd class="schedule-three-center">
+                    <!--老师未评价的状态-->
+                    <div class="schedule-three-time"><i>孙悟空</i></div>
+                    <p class="schedule-noeval">您尚未评价学生</p>
+                </dd>
+                <dd>
+                    <button class="schedule-three-menu">查看历史记录</button>
+                </dd>
+            </dl>
+        </label>
+
+        <!--状态2：已评价-->
+        <label>
+            <i class="input_style checkbox_bg"><input type="checkbox" name="hot" value="1"/></i>
+            <dl>
+                <dt>
+                    <img src="images/m79.jpg"/>
+                </dt>
+                <dd class="schedule-three-center">
+                    <!--老师已评价的状态-->
+                    <div class="schedule-three-time"><i>孙悟空</i><time><span>2017/5/12</span>10:00</time></div>
+                    <p>该同学课堂表现活跃，能出色的完成老师布置的任务，与同学友爱互助，积极向上，表现优异。但美中不足的是该同学在纪律方
+                        面需要向其他表现优秀的同学学习，老师相信通过努力，不久后的你将会更加出色，加油！</p>
+                </dd>
+                <dd>
+                    <button class="schedule-three-menu">查看历史</button>
+                </dd>
+            </dl>
+
+        </label>
+
+        <label>
+            <i class="input_style checkbox_bg"><input type="checkbox" name="hot" value="1"/></i>
+            <dl>
+                <dt>
+                    <img src="images/m79.jpg"/>
+                </dt>
+                <dd class="schedule-three-center">
+                    <!--老师已评价的状态-->
+                    <div class="schedule-three-time"><i>孙悟空</i><time><span>2017/5/12</span>10:00</time></div>
+                    <p>该同学课堂表现活跃，能出色的完成老师布置的任务，与同学友爱互助，积极向上，表现优异。但美中不足的是该同学在纪律方
+                        面需要向其他表现优秀的同面需要向其他表现优秀的同学学习面需要向其他表现优秀的同学学习学学习，老师相信通过努力，不久后的你将会更加出色，加油！</p>
+                </dd>
+                <dd>
+                    <button class="schedule-three-menu">查看历史</button>
+                </dd>
+            </dl>
+
+        </label>
+    </div>
+</div>
+<!--E内容区-->
+
+<!--R弹窗-添加评价-->
+<div id="integral">
+    <div class="integral">
+        <form>
+            <img class="schedule-three-addpj" src="images/m83.png"/>
+            <!--好评-->
+            <div class="schedule-three-box schedule-three-good">
+                <i>作业完成好</i><i>纪律好</i><i>按时出勤</i><i>团结同学</i><i>组织能力强</i>
+            </div>
+            <!--差评-->
+            <div class="schedule-three-box schedule-three-bad">
+                <i>作业完成差</i><i>纪律差</i><i>缺勤次数多</i><i>与同学相处不融侨</i><i>上课不认真听讲</i>
+            </div>
+            <!--分割线-->
+            <p class="line-halving"><b></b></p>
+            <!--输入内容-->
+            <textarea class="schedule-three-tearea">请选择推荐评价项或输入评价内容</textarea>
+            <!--按钮-->
+            <input class="schedule-three-btn integral-close" type="button" value="取消">
+            <input class="schedule-three-btn integral-sure" type="submit" value="确定">
+        </form>
+    </div>
+</div>
+<!--E弹窗-添加评价-->
+
+<!--R页脚-->
+<div class="bk-footimg">
+    <img src="images/m24.jpg" />
+</div>
+<!--E页脚-->
+<script src="js/jquery1.8.3.min.js"></script>
+<script src="js/mjs.js"></script><!--主导航-->
+<script src="js/input.js"></script>
+<script>
+    /*标签字数判断padding*/
+    $('.schedule-three-box i').each(function(){
+        var length = $(this).text().length;
+        if(length < 4){
+            $(this).css('padding','0px 25px');
+        }
+        else if(length == 4){
+            $(this).css('padding','0px 15px');
+        }
+    });
+    /*标签选择状态*/
+    $('.schedule-three-box i').click(function(){
+        $(this).toggleClass('active');
+        var teartext = $('.schedule-three-tearea').text();
+        var active_text = $('.active').text();
+
+            $('.schedule-three-tearea').html(active_text);
+    });
+
+    $('.schedule-three-btnapp').click(function () {
+        $('#integral').show();
+    });
+    /*关闭按钮（重复）*/
+    $('.integral-close').click(function () {
+        $('#integral').hide();
+    });
+
+</script>
+</body>
+</html>

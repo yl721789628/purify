@@ -1,0 +1,427 @@
+@font-face {
+    font-family: luoli;
+    src: url(../font/luoli.ttc);
+}
+#integral{
+    width:100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(000,000,000,0.5);
+    z-index: 10;
+}
+.integral{
+    position: fixed;
+    width: 718px;
+    height: 438px;
+    left: 50%;
+    top: 50%;
+    border-radius:12px;
+    margin: -220px 0 0 -360px;
+    background: #f5ebcf;
+    border:1px solid #fff;
+}
+.integral-close{
+    display: block;
+    width:60px;
+    height:60px;
+    background: url("../images/m58.png")no-repeat;
+    position: absolute;
+    top:-30px;
+    right:-30px;
+}
+.integral-cont{
+    width: 661px;
+    height: 350px;
+    margin: 20px auto;
+    border-radius: 12px;
+    background: #fff;
+    -webkit-box-shadow: 5px 8px 8px #506b69;
+    -moz-box-shadow: 5px 8px 8px #506b69;
+    -ms-box-shadow: 5px 8px 8px #506b69;
+}
+.integral-nav{
+    width: 661px;
+    height:40px;
+    border-bottom: 1px solid #c5c5c5;
+}
+.integral-nav:after{
+    content: '';
+    display: block;
+    width:661px;
+    height:41px;
+    border-bottom: 1px solid #ececec;
+}
+.integral-nav li {
+    float: left;
+    width: 164px;
+    height: 38px;
+    line-height: 38px;
+    background: #d0edfb;
+    font-size: 15px;
+    font-family: luoli;
+    text-align: center;
+    border-radius: 12px 12px 0px 0px;
+    color: #68bfe3;
+    border: 1px solid #fff;
+    border-right: 0px;
+    position: relative;
+    cursor: pointer;
+}
+.integral-nav li:before,.integral-nav li:after{
+    content: '';
+    display: inline-block;
+    width: 14px;
+    height:26px;
+    background: url("../images/m59.png") no-repeat;
+    position: absolute;
+    top: -14px;
+    left: 10px;
+}
+.integral-nav li:after{
+    left:140px;
+}
+.integral-nav li:last-child{
+    border-right:1px solid #fff ;
+}
+.integral-nav li.active{
+    background: #42b4de;
+    color: #fff;
+}
+/*排名公用*/
+.integral-nub{
+    width:661px;
+    height:auto;
+    min-height:55px;
+    margin:auto;
+    overflow: hidden;
+}
+/*奇数行*/
+.integral-cont>div.integral-nub:nth-child(odd){
+    background: #dbedf6;
+}
+img.integral-icon,.integral-nub i,.integral-nub p{
+    float: left;
+    display: inline-block;
+    height:auto;
+    line-height: 50px;
+}
+.integral-nub i{
+    width: 65px;
+    color: #f39700;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'luoli';
+    margin: 0px 28px 0px 12px;
+    -webkit-text-shadow: 0px 2px 2px #fdfd8f, 0px 1px 14px #fdfd8f, 0px 0px 7px #fdfd8f, 0px 0px 9px #fdfd8f, 1px 2px 3px #c5baba;
+    -moz-text-shadow: 0px 2px 2px #fdfd8f, 0px 1px 14px #fdfd8f, 0px 0px 7px #fdfd8f, 0px 0px 9px #fdfd8f, 1px 2px 3px #c5baba;
+    -ms-text-shadow: 0px 2px 2px #fdfd8f, 0px 1px 14px #fdfd8f, 0px 0px 7px #fdfd8f, 0px 0px 9px #fdfd8f, 1px 2px 3px #c5baba;
+    text-shadow: 0px 2px 2px #fdfd8f, 0px 1px 14px #fdfd8f, 0px 0px 7px #fdfd8f, 0px 0px 9px #fdfd8f, 1px 2px 3px #c5baba;
+}
+.integral-nub p{
+    width: 378px;
+}
+.integral-nub p a{
+    display: inline-block;
+    width:65px;
+    margin-right: 23px;
+    text-align: left;
+    color: #f39700;
+    font-size:16px;
+    line-height: 55px;
+}
+/*NO.1*/
+div.integral-one{
+    background: #f8df6a;
+}
+.integral-one{
+    width: 660px;
+    min-height: 60px;
+    height: auto;
+    border: 5px solid #f6e600;
+    border-radius: 12px;
+    margin: -5px 0px 0px -5px;
+    position: relative;
+}
+.integral-first{
+    width:650px;
+    border-radius:12px;
+    border:5px solid #fff;
+    background: #f8df6a;
+}
+.integral-first i{
+    -webkit-text-shadow: -2px 0px 0px #fff, 0px -2px 0px #fff, 1px 1px 2px #fff, 0px 0px 9px #fff, 1px 2px 3px #c5baba;
+    -moz-text-shadow: -2px 0px 0px #fff, 0px -2px 0px #fff, 1px 1px 2px #fff, 0px 0px 9px #fff, 1px 2px 3px #c5baba;
+    -ms-text-shadow:-2px 0px 0px #fff, 0px -2px 0px #fff, 1px 1px 2px #fff, 0px 0px 9px #fff, 1px 2px 3px #c5baba;
+    text-shadow:-2px 0px 0px #fff, 0px -2px 0px #fff, 1px 1px 2px #fff, 0px 0px 9px #fff, 1px 2px 3px #c5baba;
+}
+.integral-top{
+    position: absolute;
+    top: -15px;
+    right: 17px;
+}
+.integral-bot{
+    position: absolute;
+    top: -10px;
+    right: 12px;
+}
+.integral-nub b{
+    font-size:16px;
+    float: left;
+    line-height: 50px;
+    display: block;
+    width:70px;
+    color: #fff;
+    text-align: center;
+    text-shadow: -2px 0px 0px #42b4de, 2px 1px 0px #42b4de, 2px 1px 0px #42b4de, 2px 2px 0px #42b4de, -1px 2px 0px #42b4de, 1px -2px 0px #42b4de, 0px 1px 6px #231be4;
+    -webkit-text-shadow: -2px 0px 0px #42b4de, 2px 1px 0px #42b4de, 2px 1px 0px #42b4de, 2px 2px 0px #42b4de, -1px 2px 0px #42b4de, 1px -2px 0px #42b4de, 0px 1px 6px #231be4;
+    -ms-text-shadow: -2px 0px 0px #42b4de, 2px 1px 0px #42b4de, 2px 1px 0px #42b4de, 2px 2px 0px #42b4de, -1px 2px 0px #42b4de, 1px -2px 0px #42b4de, 0px 1px 6px #231be4;
+    -moz-text-shadow: -2px 0px 0px #42b4de, 2px 1px 0px #42b4de, 2px 1px 0px #42b4de, 2px 2px 0px #42b4de, -1px 2px 0px #42b4de, 1px -2px 0px #42b4de, 0px 1px 6px #231be4;
+}
+/*3名以下*/
+.integral-scroll{
+    width: 100%;
+    height: 221px;
+    border-radius: 0px 0px 12px 12px;
+    overflow: hidden;
+}
+.integral-scroll .integral-nub i{
+    color: #6fba2c;
+}
+
+/*滚动条*/
+.integral-scroll .mCS-minimal.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,.integral-scroll .mCSB_scrollTools .mCSB_draggerContainer,
+.change-speak-box ul .mCS-minimal.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,.change-speak-box ul .mCSB_scrollTools .mCSB_draggerContainer
+
+{
+	width: 6px;
+}
+.integral-scroll .mCS-minimal.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,.integral-scroll .mCS-minimal.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .integral-scroll .mCS-minimal.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,
+.change-speak-box ul .mCS-minimal.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,.change-speak-box ul .mCS-minimal.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,.change-speak-box ul .mCS-minimal.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar
+
+ {
+	background: #f6b500;
+}
+/**********************弹窗-更换讲次***************************/
+.change-speak{
+    width:650px;
+    height:342px;
+    border:5px solid #f5b200;
+    margin:58px auto auto;
+    border-radius:25px;
+    position: relative;
+    box-shadow: 0px 0px 0px 6px #e6c998 inset, 0px 0px 0px 15px #fbfbfb inset;
+}
+.change-speak-img{
+    display: inline-block;
+    width:211px;
+    height:65px;
+    position: absolute;
+    top:-38px;
+    left:225px;
+}
+.change-speak-box{
+    width: 620px;
+    height: 310px;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 2px #d9c6c6;
+}
+.change-speak-box ul{
+    width: 560px;
+    padding-top: 29px;
+    height: 280px;
+    margin: auto;
+}
+.change-speak-box li{
+    height:39px;
+    border-bottom:1px solid #f5b200;
+}
+.change-speak-box li:last-child{
+    border-bottom:none;
+}
+.change-speak-box li a{
+    line-height: 39px;
+    font-size:16px;
+    color: #707070;
+}
+.change-speak-box li a i{
+    color: #6fba2c;
+    display: inline-block;
+    width:50px;
+    text-align: left;
+    margin-right: 15px;
+}
+.change-speak-box ul .mCSB_scrollTools .mCSB_draggerContainer{
+    left: 26px;
+    top:18px;
+}
+/******************授课-自定义题库*****************************/
+#custom-ti{
+    width:1210px;
+    margin:auto;
+}
+.custom-select .select_container_nw,.custom-back{
+    float: right;
+}
+.custom-back{
+    margin-left: 30px;
+}
+/*下拉菜单（需修改）*/
+.custom-select .select_main,.custom-select .select_content::after{
+    height: 40px;
+}
+.custom-select .select_content::after{
+    top: 1px;
+}
+.custom-select .select_content{
+    padding: 10px 0px 7px 10px;
+}
+.custom-select{
+    height:60px;
+}
+.custom-back{
+    width:120px;
+    height:40px;
+    background: url("../images/m06.jpg") repeat-x;
+    -webkit-box-shadow: 1px 2px 6px #c5c5c5;
+    -moz-box-shadow: 1px 2px 6px #c5c5c5;
+    -ms-box-shadow: 1px 2px 6px #c5c5c5;
+    border-radius: 5px;
+}
+.custom-back a{
+    color: #fff;
+    letter-spacing:5px;
+    font-size: 16px;
+}
+.custom-box{
+    width:1210px;
+    height:525px;
+    margin: auto;
+    background:yellow;
+}
+.custom-box .custom-nav{
+    margin-left: 40px;
+}
+.custom-nav a {
+    display: inline-block;
+    width: 256px;
+    height: 43px;
+    line-height: 48px;
+    line-height: 48px;
+    font-size: 18px;
+    color: #fff;
+    font-family: luoli;
+    text-align: center;
+    margin-right: -4px;
+    text-shadow: 1px 1px 4px #709918;
+    background: url("../images/m75.png") no-repeat;
+}
+.custom-box .custom-nav a.active,.custom-box .custom-nav a:hover{
+    color: #5e9e25;
+    background: url("../images/m74.png") no-repeat;
+}
+.custom-addti{
+    width:1204px;
+    height:474px;
+    margin-top: -4px;
+    border:3px solid #8fc31f;
+    background: #fffcdb;
+    border-radius: 8px;
+}
+.custom-addti h6{
+    font-size:30px;
+    color: #8fc31f;
+    margin: 205px 0px 20px 0px;
+    text-align: center;
+}
+.custom-addti h5{
+    width:300px;
+    height:50px;
+    margin: auto;
+    -webkit-border-radius:12px;
+    -moz-border-radius:12px;
+    border-radius:12px;
+    background: #8fc31f;
+    color: #fff;
+    font-size:25px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+.custom-addti h5 i{
+    font-family:luoli;
+    font-size:22px;
+    margin-left:19px;
+    text-align: center;
+}
+/*单选框*/
+/*公用*/
+input[type='radio'],input[type='checkbox']{
+    width: 13px;
+    height: 13px; /*把此元素放置在父元素的中部*/
+    opacity: 0;
+}
+label{
+    margin-right: 30px;
+}
+/*单选框*/
+.radio_bg{
+    background: url(../images/m70.png) no-repeat;
+}
+.radio_bg_check{
+    background: url(../images/m71.png) no-repeat;
+}
+.input_style{
+    /*添加雪碧图*/
+    display: inline-block;
+    width: 13px;
+    height: 18px;
+    background-position: 0px 5px;
+}
+/*内容区*/
+div.class-room{
+    width:798px;
+    height:498px;
+    margin: -199px 0 0 -399px;
+}
+.classroom{
+    display: block;
+    margin: 30px auto 10px auto;
+}
+.croom-mant p i{
+    display: inline-block;
+    float: right;
+    width:649px;
+    height:11px;
+    border-bottom:1px solid #6fba2c;
+}
+.croom-mant p i:before{
+    content: '';
+    display: inline-block;
+    width:5px;
+    height:5px;
+    border-radius: 100%;
+    border:1px solid #6fba2c;
+    background: #6fba2c;
+}
+.croom-mant{
+    width:740px;
+    margin: auto;
+}
+.classroom-tle{
+    display: inline-block;
+    width:65px;
+    font-size:16px;
+    color: #707070;
+}
+.croom-int{
+    margin: 8px 0px 0px 4px;
+}
+
+
+
+

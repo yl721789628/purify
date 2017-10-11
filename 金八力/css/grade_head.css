@@ -1,0 +1,38 @@
+.class_note{width:1210px;height:668px;margin:0 auto;}
+.class_note .note_title{width:788px;height:40px;margin:0 auto;background:#fff;position: relative;z-index: 1}
+.class_note .note_title span{
+	width:182px;
+	height:40px;
+	float: left;
+	text-align:center;
+	line-height:40px;
+	background:url('../images/grade/note.png') no-repeat;
+	cursor: pointer;
+	font-size:18px;
+	color:#6fba2c;
+	}
+	.class_note .note_title span.active{
+		
+		background:url('../images/grade/inform.png') no-repeat;
+	}
+	.class_note .note_title span a{
+		color:#8fc31f;
+	}
+	.class_note .note_title span.active a{
+		color:#fff!important;	}
+	
+	.class_note .note_title span.dou{
+		margin-left: 20px;
+	}
+	.class_note .note_title span.rig{
+		margin-right: 20px;
+	}
+	.noteBox{
+		width: 1210px;
+		height: 628px;
+		background:#fff;
+		box-shadow: 2px 2px 29px #e8e8e8,-3px 1px 19px #e8e8e8;
+		margin: 0px auto;
+		border-radius: 13px;
+		overflow: hidden;
+	}

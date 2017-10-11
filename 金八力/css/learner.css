@@ -1,0 +1,90 @@
+.learn_cade{
+	width: 1210px;
+	height:620px;
+	margin:0 auto;
+}
+.learn_cade .add_pix{
+	height:40px;
+	width:100%;
+	position: relative;
+	margin-top:-13px;
+}
+.learn_cade .add_pix a{
+	width:120px;
+	height:100%;
+	cursor:pointer;
+	position:absolute;
+	left:1090px;
+}
+.learn_cade .learn_not{
+	width:1210px;
+	height:100px;
+	background:#fffcdb;
+	color:#707070;
+	font-size:30px;
+	text-align:center;
+	line-height:100px;
+	margin-top:20px;
+}
+.group_pic1{
+	margin-top:20px;
+}
+.group_pic1 img:nth-child(1){
+	margin-left:0px;
+}
+.group_pic1 img:nth-child(2){
+	margin-left:20px;
+}
+.group_pic1 img:nth-child(3){
+	width:993px;
+	margin-left:15px;
+	padding-bottom: 11px;
+}
+.un_group{
+	width:1090px;
+	height:410px;
+	margin:0 auto;
+}
+.un_group .one_list1{
+	width:1090px;
+	height:100%;
+	margin-top:20px;
+}
+.un_group .one_list1 li{
+	width: 110px;
+	height:110px;
+	float:left;
+	margin-right:26px;
+	margin-bottom:30px;
+	cursor:pointer;
+	position:relative;
+	background:url('../images/ungroup/di2.png') no-repeat;
+}
+.un_group .one_list1 li.active{
+	background:url('../images/ungroup/di1.png') no-repeat;
+}
+.un_group .one_list1 li img{
+	position: absolute;
+	left:4px;
+	top:5px;
+	z-index:-1;
+}
+.un_group .one_list1 li span{
+	display: inline-block;
+    width: 66px;
+    margin-left: 21px;
+    margin-top: 83px;
+    text-align: center;
+    color: white;
+    letter-spacing: 5px;
+}
+/*页脚*/
+.bk-footimg{
+    width:100%;
+    height:191px;
+
+}
+.bk-footimg img {
+    display: block;
+    width: 100%;
+}

@@ -1,0 +1,216 @@
+
+/*
+*
+*
+*	我写的
+*	
+*	
+*	
+*/
+.clearfix {
+	zoom: 1;
+}
+.clearfix:after { clear: both; content: ''; display: block; }
+.choseModule{
+	width: 1210px;
+	height: 400px;
+	margin: 0 auto;
+	position: relative;
+}
+.choseOut{
+	width: 1135px;
+	height:390px;
+	border:5px solid #dc83b1;
+	border-radius:8px;
+}
+.choseCon{
+	height: 345px;
+	width: 885px;
+	border-radius: 10px;
+	background: #edc0d7;
+	margin:10px auto;
+	padding-left: 230px;
+	padding-top: 25px;
+}
+.ballInfo{
+	position: absolute;
+	width: 182px;
+	height: 157px;
+	background: url(../images/vote/Q.png) no-repeat;
+	right:-18px;
+	top: -69px;
+	padding-top: 57px;
+	padding-left:11px;
+}
+.ballInfo p{
+	font-size:18px;
+	color:#f39700;
+	text-align: center;
+}
+.ballInfo .class_name{
+	width:180px;
+	height:54px;
+}
+.starImg{
+	width: 240px;
+	height:139px;
+	background: url(../images/vote/star.png) no-repeat;
+	position: absolute;
+	left:-20px;
+	bottom:0px;
+	padding-top: 135px;
+}
+.starImg p{
+	font-size: 14px;
+	text-align: center;
+	color: #535353;
+	transform: rotate(-11deg);
+}
+.start_p{
+	margin-left:7px;
+}
+/*选项卡部分*/
+	/*选中状态*/
+.makeUp,.checkingIn{
+	width: 70px;
+	height: 125px;
+	background: url(../images/vote/kq.png);
+	position: absolute;
+	line-height: 125px;
+	font-size:18px;
+	font-weight:600px;
+	color:#dc83b1;
+	text-align: center;
+	cursor:pointer;
+	padding-left: 30px;
+
+}
+.checkingIn{
+	top:150px;
+	right: 0px;
+}
+.makeUp{
+	bottom:0px;
+	right: 0px;
+}
+	
+/*未选中*/
+.notSelect{
+	padding-left: 0px;
+	color:#fff;
+	background: url(../images/vote/notSelect.png) no-repeat;
+	width:71px;
+}
+/*滚动条*/
+.dragOut,.dragBox{
+	width: 13px;
+	background:url(../images/vote/cao.png) no-repeat;
+	height: 211px;
+	border-radius: 6px;
+}
+.dragOut{
+	position: absolute;
+	right:94px;
+	top:150px;
+}
+.dragBox{
+	position: relative;
+}
+.drag{
+	width: 13px;
+	height:50px;
+	background: url(../images/vote/drag.png) no-repeat center center;
+	position: absolute;
+	top:0px;
+	left: -1px;
+	cursor: pointer;
+}
+/*滚动部分*/
+.infoWrap{
+	position: relative;
+	width: 792px;
+	height: 320px;
+	overflow: hidden;
+}
+.infoCon{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.infoCon li{
+	float: left;
+	width: 178px;
+	height: 100px;
+	background: url(../images/vote/infoBg.png) no-repeat;
+	margin-bottom: 10px;
+	margin-right: 20px;
+}
+.headImg,.detailInfo{
+	float:left;
+}
+.headImg{
+	width: 78px;
+	height: 68px;
+	border-radius: 10px;
+	overflow: hidden;
+	margin:16px 0 0 6px;
+}
+.detailInfo{
+	width: 75px;
+	height: 70px;
+	margin:13px 0 0 9px;
+}
+.name{
+	height: 31px;
+	text-align:center;
+	line-height:29px;
+	font-size:14px;
+	color:#535353;
+}
+.detailInfo span{
+	font-size:9px;
+	color:#fff;
+	float: left;
+	width: 35px;
+	height: 15px;
+	text-align: center;
+	line-height: 15px;
+	background:url('../images/vote/lv.png') no-repeat;
+	border-radius: 4px;
+	cursor: pointer;
+	letter-spacing: 1px;
+}
+.detailInfo p.firP{
+	margin-bottom: 5px;
+}
+.detailInfo span.actSpan{
+	font-family:"Microsoft YaHei";
+	background:url('../images/vote/hs.png') no-repeat;
+}
+.detailInfo span.firSpan{
+	font-family:"Microsoft YaHei";
+	margin-right: 5px;
+}
+/*提交按钮*/
+.commiteBtn{
+	width:155px ;
+	height: 51px;
+	background: url(../images/vote/commite.png) no-repeat;
+	cursor:pointer;
+	position: absolute;
+	left: 868px;
+	bottom: 35px;
+	display: none;
+}
+/*页脚*/
+./*bk-footimg{
+    width:1210px;
+    height:191px;
+
+}
+.bk-footimg img {
+    display: block;
+    width: 1210px;
+    height:190px;
+}
+*/

@@ -1,0 +1,288 @@
+﻿$axure.loadCurrentPage({
+  "url":"注册.html",
+  "generationDate":new Date(1494572349146.23),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"6e1e255114814fd9908fd947fd946f29",
+    "type":"Axure:Page",
+    "name":"注册",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"a45919d648a740dc92c338112de1c21b",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":-242,
+              "y":100},
+            "size":{
+              "width":1422,
+              "height":571}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"c2aa3b8308814735b6f339e9cfe991ea",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":-242,
+                  "y":100},
+                "size":{
+                  "width":1422,
+                  "height":571}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/注册/u0.png"}},
+{
+          "id":"f512e6b0758645858bef1b18c1aa34ca",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":900,
+              "y":490},
+            "size":{
+              "width":130,
+              "height":30}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 登录",
+                      "target":{
+                        "targetType":"page",
+                        "url":"登录.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"99ce13e3b09a4b0a83154d7447336595",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":870,
+              "y":410},
+            "size":{
+              "width":90,
+              "height":30}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 服务条款",
+                      "target":{
+                        "targetType":"page",
+                        "url":"服务条款.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"1d941a6491034cb4a593c43d617f0baa",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":749,
+              "y":448},
+            "size":{
+              "width":281,
+              "height":42}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 DIv",
+                      "objectsToFades":[{
+                          "objectPath":["8587065ae4254905aefb94501a304941"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true},
+{
+          "id":"8587065ae4254905aefb94501a304941",
+          "label":"DIv",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":760,
+              "y":280},
+            "size":{
+              "width":10,
+              "height":10},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "scrollbars":"none",
+          "fitToContent":true,
+          "propagate":false,
+          "diagrams":[{
+              "id":"99ac78d164694ea1ad6b10d8d321ad23",
+              "label":"状态1",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"3b1ae4cbf7b94b179bdd304e86643b29",
+                  "label":"",
+                  "parentDynamicPanel":"8587065ae4254905aefb94501a304941",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":250,
+                      "height":130},
+                    "borderFill":{
+                      "fillType":"solid",
+                      "color":0xFFC9C9C9}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"face3b9ccb904109bb8486e080d1318a",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"8587065ae4254905aefb94501a304941",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":250,
+                          "height":130},
+                        "borderFill":{
+                          "fillType":"solid",
+                          "color":0xFFC9C9C9}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/注册/u6.png"}},
+{
+                  "id":"375170ff8064425489388d8ae8bb010d",
+                  "label":"",
+                  "parentDynamicPanel":"8587065ae4254905aefb94501a304941",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":90,
+                      "y":90},
+                    "size":{
+                      "width":70,
+                      "height":30},
+                    "cornerRadiusTopLeft":"4"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"d9cfa98724d64afeb8709eca73888906",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"8587065ae4254905aefb94501a304941",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "location":{
+                          "x":90,
+                          "y":90},
+                        "size":{
+                          "width":70,
+                          "height":30},
+                        "cornerRadiusTopLeft":"4"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"linkWindow",
+                              "description":"在 当前窗口 打开 登录",
+                              "target":{
+                                "targetType":"page",
+                                "url":"登录.html",
+                                "includeVariables":true},
+                              "linkType":"current"}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"images/提问/u49.png"}}]}]}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "a45919d648a740dc92c338112de1c21b":{
+      "scriptId":"u0"},
+    "c2aa3b8308814735b6f339e9cfe991ea":{
+      "scriptId":"u1"},
+    "f512e6b0758645858bef1b18c1aa34ca":{
+      "scriptId":"u2"},
+    "99ce13e3b09a4b0a83154d7447336595":{
+      "scriptId":"u3"},
+    "1d941a6491034cb4a593c43d617f0baa":{
+      "scriptId":"u4"},
+    "8587065ae4254905aefb94501a304941":{
+      "scriptId":"u5"},
+    "3b1ae4cbf7b94b179bdd304e86643b29":{
+      "scriptId":"u6"},
+    "face3b9ccb904109bb8486e080d1318a":{
+      "scriptId":"u7"},
+    "375170ff8064425489388d8ae8bb010d":{
+      "scriptId":"u8"},
+    "d9cfa98724d64afeb8709eca73888906":{
+      "scriptId":"u9"}}});
